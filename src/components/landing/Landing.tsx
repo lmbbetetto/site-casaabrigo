@@ -1,6 +1,8 @@
+import './landing.css'
+
 function Landing(){
     return(
-        <div className="container">
+        <div className="container nome__cabecalho">
             <h1>ACIPP Casa Abrigo</h1>
         </div>
     )

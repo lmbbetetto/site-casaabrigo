@@ -20,7 +20,7 @@ function Header() {
         </nav>
       </div>
 
-      <div className='container logo__casa'>
+      <div className='logo__casa'>
           <img src={logo} alt="logo casalar" />
       </div>
 
