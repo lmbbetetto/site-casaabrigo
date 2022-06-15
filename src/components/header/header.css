@@ -1,0 +1,59 @@
+.container__header {
+    width: 100%;
+    /*background: #FCEF15; Amarelo Padrão */
+    padding: 2.5rem 0;
+}
+
+.logo__casa {
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 8.4rem;
+    max-width: 11.5rem;
+}
+
+.search {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0 2px #ffff;
+    outline: none;
+    cursor: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    resize: none;
+    color: #000;
+}
+
+.header_menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 10rem;
+    font-weight: bold;
+}
+
+.header_menu ul li {
+    display: inline;
+    margin-left: 25px;
+    margin-top: -2px;
+}
+
+.header_menu ul li a {
+    color: #ffff; /*azul padrão */
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    padding: 3px 0;
+}
+
+.header_menu button {
+    margin-left: 1rem;
+}
+
+.header_menu ul li a:hover {
+    color: #FCEF15;
+}
