@@ -83,6 +83,10 @@ a{
     transition: var(--transition);
 }
 
+.footer a:hover{
+    color: #FCEF15;
+}
+
 a:hover{
     color: var(--color-white);
 }
