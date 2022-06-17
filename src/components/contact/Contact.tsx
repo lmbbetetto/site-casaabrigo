@@ -1,5 +1,5 @@
 import './contact.css'
-import { MdOutlineEmail } from 'react-icons/md'
+import { GiPositionMarker } from 'react-icons/gi'
 import { BsWhatsapp } from 'react-icons/bs'
 import { IoLogoFacebook } from 'react-icons/io'
 import { useRef } from 'react';
@@ -22,6 +22,7 @@ function Contact({ onSubmitContact }: ContactType) {
 
     e.target.reset()
   };
+
   return (
     <section id='contact' className='contact'>
       <h5>Entre em contato</h5>
@@ -30,7 +31,7 @@ function Contact({ onSubmitContact }: ContactType) {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon' />
+            <GiPositionMarker className='contact__option-icon' />
             <h4>Email</h4>
             <h5>acippcasabrigo@hotmail.com</h5>
             <a href="mailto:acippcasabrigo@hotmail.com" target='_blank'>Envie uma mensagem</a>
@@ -58,8 +59,11 @@ function Contact({ onSubmitContact }: ContactType) {
           <button type='submit' onClick={onSubmitContact} className='btn btn-yellow'>Enviar</button>
         </form>
       </div>
+
+      <div className="container">
+
+      </div>
     </section>
   )
-}
 
 export default Contact
