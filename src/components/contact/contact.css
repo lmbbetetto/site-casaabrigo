@@ -10,7 +10,6 @@
     flex-direction: column;
     gap: 1.2rem;
 }
-
 .contact__option {
     color: var(--color-bg);
     background: var(--color-white);

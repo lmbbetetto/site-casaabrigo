@@ -1,0 +1,54 @@
+.container.about__container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 12%;
+}
+
+.missao_sobre {
+    margin-top: 2rem   
+}
+
+.missao_sobre p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.missao_sobre ul li {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.subtitulo-interno {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 8px 0;
+}
+
+.title {
+    margin-top: 8rem;
+}
+
+.title h5{
+    text-align: center;
+    color: var(--color-white);
+}
+
+.title h2{
+    text-align: center;
+    color: var(--color-white);
+    margin-bottom: 3rem;
+}

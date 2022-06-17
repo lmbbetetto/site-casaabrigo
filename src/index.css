@@ -84,11 +84,11 @@ a{
 }
 
 .footer a:hover{
-    color: #FCEF15;
+    color: #fff;
 }
 
 .contact__option a:hover {
-    color: #FCEF15;
+    color: #feea00;
 }
 
 a:hover{
@@ -111,7 +111,7 @@ a:link {
 }
 
 .btn:hover{
-    background: #FCEF15;
+    background: #feea00;
     color: var(--color-bg);
     border-color: transparent;
 }

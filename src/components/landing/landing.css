@@ -24,3 +24,12 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.conheca__mais {
+    margin-top: 5.1rem;
+    font-style: italic;
+}
+
+.conheca__mais button {
+    margin-top: 2rem;
+}
