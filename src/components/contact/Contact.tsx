@@ -5,10 +5,13 @@ import { IoLogoFacebook } from 'react-icons/io'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
+
+
+
 type ContactType = {
   onSubmitContact: (e: any) => void
 }
-
 
 function Contact({ onSubmitContact }: ContactType) {
   const form = useRef<any>();
@@ -23,7 +26,13 @@ function Contact({ onSubmitContact }: ContactType) {
     e.target.reset()
   };
 
-  return (
+  const { isLoaded } = useJsApiLoader({
+    id: 'google-map-script',
+    googleMapsApiKey: "AIzaSyAYZJNleGDvUPNGAF8PtEokfY-jZ0HqqCA"
+  })
+
+  return  isLoaded ? (
+    <>
     <section id='contact' className='contact'>
       <h5>Entre em contato</h5>
       <h2>Contate-me</h2>
@@ -61,9 +70,19 @@ function Contact({ onSubmitContact }: ContactType) {
       </div>
 
       <div className="container">
-
+        <GoogleMap
+          mapContainerStyle={{width: '100%', height: '2rem'}}
+          center={{
+            lat: -22.413461,
+            lng: -50.571338
+          }}
+          zoom={15}
+        ></GoogleMap>
       </div>
+
     </section>
+    </>
   )
+}
 
 export default Contact
