@@ -31,7 +31,12 @@ function Contact({ onSubmitContact }: ContactType) {
     googleMapsApiKey: "AIzaSyAYZJNleGDvUPNGAF8PtEokfY-jZ0HqqCA"
   })
 
-  return  isLoaded ? (
+  const position = {
+    lat: -22.413461,
+    lng: -50.571338,
+  }
+
+  return ( 
     <>
     <section id='contact' className='contact'>
       <h5>Entre em contato</h5>
@@ -41,24 +46,25 @@ function Contact({ onSubmitContact }: ContactType) {
         <div className="contact__options">
           <article className="contact__option">
             <GiPositionMarker className='contact__option-icon' />
-            <h4>Email</h4>
-            <h5>acippcasabrigo@hotmail.com</h5>
+            <h4>Endereço</h4>
+            <h5>Rua Ferreira da Rocha, 66 - Barra Funda</h5>
+            <h5>Paraguaçu Paulista - SP</h5>
             <a href="mailto:acippcasabrigo@hotmail.com" target='_blank'>Envie uma mensagem</a>
+          </article>
+
+          <article className="contact__option">
+            <BsWhatsapp className='contact__option-icon' />
+            <h4>Telefone</h4>
+            <h5>+55 18 3361-1413</h5>
           </article>
 
           <article className="contact__option">
             <IoLogoFacebook className='contact__option-icon' />
             <h4>Facebook</h4>
             <h5>ACIPP Casa Abrigo</h5>
-            <a href="https://www.facebook.com/acippcasaabrigo/" target='_blank'>Envie uma mensagem</a>
+            <a href="https://www.facebook.com/acippcasaabrigo/" target='_blank'>Acesse</a>
           </article>
 
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon' />
-            <h4>WhatsApp</h4>
-            <h5>+55 18 99656-3354</h5>
-            <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
-          </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>
@@ -70,14 +76,17 @@ function Contact({ onSubmitContact }: ContactType) {
       </div>
 
       <div className="container">
-        <GoogleMap
-          mapContainerStyle={{width: '100%', height: '2rem'}}
-          center={{
-            lat: -22.413461,
-            lng: -50.571338
-          }}
-          zoom={15}
-        ></GoogleMap>
+        { isLoaded ? (
+            <GoogleMap
+              mapContainerStyle={{width: '100%', height: '20rem', marginTop: '5rem', borderRadius: '2rem'}}
+              center={position}
+              zoom={17}
+            >
+              <Marker position={position} />
+            </GoogleMap>
+        ) : (
+          <></>
+        )}
       </div>
 
     </section>

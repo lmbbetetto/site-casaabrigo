@@ -26,7 +26,7 @@ function App() {
             <li><Link to="/sobre">Sobre</Link></li>
             <li><Link to="/transparencia">Transparência</Link></li>
             <li><Link to="/contato">Contato</Link></li>
-            <Link to="/"><button className='btn btn-yellow'>Doação</button></Link>
+            <Link to="/"><button className='btn btn-yellow'>Apoie</button></Link>
           </ul>
           </nav>
         </div>
