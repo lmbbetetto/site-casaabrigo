@@ -12,6 +12,7 @@ import Landing from './components/landing/Landing'
 import Contato from './components/contact/Contact'
 import Sobre from './components/about/About'
 import Transparencia from './components/transparencia/Transparencia'
+import Doe from './components/doe/Doe'
 
 
 function App() {
@@ -22,11 +23,11 @@ function App() {
         <div className='container'>
           <nav className='container__header header_menu'>
           <ul>
-            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/'>Início</Link></li>
             <li><Link to="/sobre">Sobre</Link></li>
             <li><Link to="/transparencia">Transparência</Link></li>
             <li><Link to="/contato">Contato</Link></li>
-            <Link to="/"><button className='btn btn-yellow'>Apoie</button></Link>
+            <Link to="/ajude"><button className='btn btn-yellow'>Apoie</button></Link>
           </ul>
           </nav>
         </div>
@@ -41,6 +42,7 @@ function App() {
         <Route path='/contato' element={<Contato/>} />
         <Route path='/sobre' element={<Sobre/>} />
         <Route path='/transparencia' element={<Transparencia/>} />
+        <Route path='/ajude' element={<Doe/>} />
       </Routes>
 
       <div className="wave">
@@ -51,7 +53,7 @@ function App() {
         <p className='footer__logo'>ACIPP Casa Abrigo</p>
   
         <ul className='permalinks footer'>
-          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/'>Início</Link></li>
           <li><Link to='/sobre'>Sobre</Link></li>
           <li><Link to='/transparencia'>Transparência</Link></li>
           <li><Link to='/contato'>Contato</Link></li>
@@ -62,7 +64,11 @@ function App() {
         </div>
   
         <div className="footer__copyright">
-          <small>&copy; ACIPP Casa Abrigo. Todos os direitos reservados.</small>
+          <small>&copy; ACIPP Casa Abrigo | Todos os direitos reservados.</small>
+        </div>
+
+        <div className="footer__copyright">
+          <small>Criado por Leonardo Betetto</small>
         </div>
       </footer>
 

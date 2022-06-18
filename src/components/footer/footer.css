@@ -9,6 +9,11 @@ footer a {
     color: var(--color-bg);
 }
 
+.container__footer {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
 .footer__logo {
     color: var(--color-bg);
     font-size: 2rem;
@@ -42,7 +47,6 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
     color: var(--color-bg);
 }
 
