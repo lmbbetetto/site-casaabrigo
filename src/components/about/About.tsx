@@ -4,8 +4,11 @@ function About(){
     return(
         <>
         <div className='title'>
-            <h5>Conheça mais sobre a Casa Abrigo</h5>
-            <h2>Sobre</h2>
+            <div className="inicio">
+                <h5>Conheça mais sobre a Casa Abrigo</h5>
+                <h2>Sobre</h2>
+            </div>
+
         </div>
         <section id='contact' className='container about__container'>
 

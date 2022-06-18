@@ -1,7 +1,7 @@
 import './contact.css'
 import { GiPositionMarker } from 'react-icons/gi'
 import { BsWhatsapp } from 'react-icons/bs'
-import { IoLogoFacebook } from 'react-icons/io'
+import { BsFacebook } from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -39,8 +39,10 @@ function Contact({ onSubmitContact }: ContactType) {
   return ( 
     <>
     <section id='contact' className='contact'>
-      <h5>Entre em contato</h5>
-      <h2>Contate-me</h2>
+      <div className="inicio">
+        <h5>Entre em contato</h5>
+        <h2>Contate-me</h2>
+      </div>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -49,7 +51,6 @@ function Contact({ onSubmitContact }: ContactType) {
             <h4>Endereço</h4>
             <h5>Rua Ferreira da Rocha, 66 - Barra Funda</h5>
             <h5>Paraguaçu Paulista - SP</h5>
-            <a href="mailto:acippcasabrigo@hotmail.com" target='_blank'>Envie uma mensagem</a>
           </article>
 
           <article className="contact__option">
@@ -59,7 +60,7 @@ function Contact({ onSubmitContact }: ContactType) {
           </article>
 
           <article className="contact__option">
-            <IoLogoFacebook className='contact__option-icon' />
+            <BsFacebook className='contact__option-icon' />
             <h4>Facebook</h4>
             <h5>ACIPP Casa Abrigo</h5>
             <a href="https://www.facebook.com/acippcasaabrigo/" target='_blank'>Acesse</a>
