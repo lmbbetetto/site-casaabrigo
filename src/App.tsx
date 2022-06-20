@@ -39,7 +39,9 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Landing/>} />
-        <Route path='/contato' element={<Contato/>} />
+        <Route path='/contato' element={<Contato onSubmitContact={function (e: any): void {
+          throw new Error('Function not implemented.')
+        } }/>} />
         <Route path='/sobre' element={<Sobre/>} />
         <Route path='/transparencia' element={<Transparencia/>} />
         <Route path='/ajude' element={<Doe/>} />
