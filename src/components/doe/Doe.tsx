@@ -18,19 +18,21 @@ function Doe(){
             <BsCreditCardFill className='about__icon' />
             
             <h3>Transferencia / Depósito</h3>
-            <p>99999999999</p>
+            <p>Banco Sicob</p>
+            <p>Agência: 3190</p>
+            <p>Conta Corrente: 14.537-8</p>
           </article>
   
           <article className='portfolio__item'>
             <BsCashCoin className='about__icon' />
             <h3>Pix</h3>
-            <p>99999999999</p>
+            <p>47.609.482/0001-45</p>
           </article>
         </div>
 
         <div className="rodape">
           <h2>Nós agradecemos imensamente sua colaboração!</h2>
-          <Link to="/contato"><button className="btn btn-yellow">Fale Conosco</button></Link>
+          <Link to="/contato"><button className="btn btn-primary">Fale Conosco</button></Link>
         </div>
       </section>
     )

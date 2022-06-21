@@ -41,7 +41,7 @@ function Contact({ onSubmitContact }: ContactType) {
     <section id='contact' className='contact'>
       <div className="inicio">
         <h5>Entre em contato</h5>
-        <h2>Contate-me</h2>
+        <h2>Contate-nos</h2>
       </div>
 
       <div className="container contact__container">
@@ -72,7 +72,7 @@ function Contact({ onSubmitContact }: ContactType) {
           <input type="text" name='name' placeholder='Nome completo' required />
           <input type="email" name="email" placeholder='Email' required />
           <textarea name="message" rows={7} placeholder='Mensagem' required></textarea>
-          <button type='submit' onClick={onSubmitContact} className='btn btn-yellow'>Enviar</button>
+          <button type='submit' onClick={onSubmitContact} className='btn btn-primary'>Enviar</button>
         </form>
       </div>
 

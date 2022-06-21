@@ -27,7 +27,7 @@ function App() {
             <li><Link to="/sobre">Sobre</Link></li>
             <li><Link to="/transparencia">Transparência</Link></li>
             <li><Link to="/contato">Contato</Link></li>
-            <Link to="/ajude"><button className='btn btn-yellow'>Apoie</button></Link>
+            <Link to="/ajude"><button className='btn btn-primary'>Apoie</button></Link>
           </ul>
           </nav>
         </div>
@@ -70,7 +70,7 @@ function App() {
         </div>
 
         <div className="footer__copyright">
-          <small>Criado por Leonardo Betetto</small>
+          <small>Criado por <a href='https://www.leonardobetetto.dev' target='_blank'>Leonardo Betetto</a></small>
         </div>
       </footer>
 
