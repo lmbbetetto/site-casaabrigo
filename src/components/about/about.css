@@ -1,18 +1,24 @@
 .container.about__container {
     display: grid;
     grid-template-columns: 60% 40%;
-    gap: 12%;
+    gap: 2%;
 }
 
 .missao_sobre {
-    margin-top: 2rem   
+    color: var(--color-bg);
+    background: var(--color-yellow);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.fundo {
+    width: 95%;
 }
 
 .missao_sobre p {
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 1em;
-    padding-right: 60px;
 }
 
 .missao_sobre ul li {

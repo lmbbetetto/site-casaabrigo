@@ -17,7 +17,7 @@ function About(){
             <p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte da qualfazemos parte.</p>
             <p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte da qualfazemos parte.</p>
         </div>
-        <div className="missao_sobre">
+        <div className="missao_sobre fundo">
             <h2 className="subtitulo-interno">Valores</h2>
                 <ul>
                     <li>- Qualidade no processo com</li>
