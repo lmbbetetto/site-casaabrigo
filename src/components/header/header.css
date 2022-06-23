@@ -57,3 +57,8 @@ input, textarea {
 .header_menu ul li a:hover {
     color: #FCEF15;
 }
+
+.wave_header {
+    margin-top: -15rem;
+    z-index: -1;
+}
