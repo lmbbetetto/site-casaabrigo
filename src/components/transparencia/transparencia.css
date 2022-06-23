@@ -1,5 +1,28 @@
 .transparencia__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+}
+
+.sinconvinho {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+
+    padding-bottom: 2.5rem;
+}
+
+.transparencia_h3 {
+    padding-bottom: 2rem;
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+
+@MEDIA screen and (max-width: 600px) {
+    .transparencia__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+    }
+    
 }
