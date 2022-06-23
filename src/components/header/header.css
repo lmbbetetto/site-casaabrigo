@@ -20,14 +20,6 @@
     cursor: auto;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    resize: none;
-    color: #000;
-}
-
 .header_menu {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -43,7 +35,7 @@ input, textarea {
 }
 
 .header_menu ul li a {
-    color: #ffff; /*azul padrão */
+    color: var(--color-white);
     text-transform: uppercase;
     letter-spacing: .1em;
     font-size: 14px;
@@ -52,13 +44,15 @@ input, textarea {
 
 .header_menu button {
     margin-left: 1rem;
+    font-weight: bold;
 }
 
 .header_menu ul li a:hover {
-    color: #FCEF15;
+    color: #028535;
 }
 
 .wave_header {
-    margin-top: -15rem;
+    margin-top: -10rem;
+    position: relative;
     z-index: -1;
 }
