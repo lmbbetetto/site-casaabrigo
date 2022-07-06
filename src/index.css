@@ -17,6 +17,7 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --color-yellow: #feea00;
+    --color-green: #028535;
 
     --transition: all 400ms ease;
 
@@ -27,10 +28,6 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar{
-    display: none;
 }
 
 body{
@@ -85,15 +82,15 @@ a{
 }
 
 .footer a:hover{
-    color: #fff;
+    color: var(--color-green);
 }
 
 .contact__option a:hover {
-    color: #feea00;
+    color: var(--color-green);
 }
 
 a:hover{
-    color: var(--color-white);
+    color: var(--color-green);
 }
 
 a:link {
@@ -111,6 +108,24 @@ a:link {
     transition: var(--transition);
 }
 
+.btn_green{
+    width: max-content;
+    display: inline-block;
+    background: var(--color-yellow);
+    color: var(--color-bg);
+    padding: 0.75rem 1.2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    transition: var(--transition);
+}
+
+.btn_green:hover{
+    background: var(--color-green);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
 .btn-transparencia {
     width: max-content;
     display: inline-block;
@@ -122,6 +137,12 @@ a:link {
     cursor: pointer;
 
     transition: var(--transition);
+}
+
+.btn-transparencia:hover {
+    background: var(--color-green);
+    color: var(--color-white);
+    border-color: transparent;
 }
 
 .btn:hover{

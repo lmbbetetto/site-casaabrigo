@@ -2,7 +2,6 @@ import { Route, Routes, Link } from 'react-router-dom'
 
 import './components/header/header.css'
 import logo from './assets/logo.png'
-import wave from './assets/wave.svg'
 
 import './components/wave/wave.css'
 
@@ -17,24 +16,22 @@ import Doe from './components/doe/Doe'
 
 
 function App() {
-
   return (
     <>
       <header>
         <div className='container'>
-          <nav className='container__header header_menu'>
-          <ul>
-            <li><Link to='/'>Início</Link></li>
-            <li><Link to="/sobre">Sobre</Link></li>
-            <li><Link to="/transparencia">Transparência</Link></li>
-            <li><Link to="/contato">Contato</Link></li>
-            <Link to="/ajude"><button className='btn btn-primary'>Apoie</button></Link>
-          </ul>
-          </nav>
-        </div>
 
-        <div className='logo__casa'>
-            <Link to="/"><img src={logo} alt="logo casalar"/></Link>
+          <Link to="/"><img src={logo} alt="Casa Abrigo" className="container__header logo__casa"/></Link>
+
+          <nav className='container__header header_menu'>
+            <ul>
+              <li><Link to='/'>Início</Link></li>
+              <li><Link to="/sobre">Sobre</Link></li>
+              <li><Link to="/transparencia">Transparência</Link></li>
+              <li><Link to="/contato">Contato</Link></li>
+              <Link to="/ajude"><button className='btn_green'>Apoie</button></Link>
+            </ul>
+          </nav>
         </div>
       </header>
 

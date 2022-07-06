@@ -32,7 +32,7 @@ function Doe(){
 
         <div className="rodape">
           <h2>Nós agradecemos imensamente sua colaboração!</h2>
-          <Link to="/contato"><button className="btn btn-primary">Fale Conosco</button></Link>
+          <Link to="/contato"><button className="btn_green">Fale Conosco</button></Link>
         </div>
       </section>
     )

@@ -1,35 +1,24 @@
 .container__header {
     width: 100%;
-    /*background: #FCEF15; Amarelo Padrão */
-    padding: 2.5rem 0;
+    margin-left: -1.5rem;
 }
 
 .logo__casa {
-    position: absolute;
-    margin-top: -155px;
-    margin-left: 8.4rem;
     max-width: 11.5rem;
 }
 
-.search {
-    width: 10rem;
-    height: 2rem;
-    border-radius: 0.4rem;
-    box-shadow: 0 0 0 2px #ffff;
-    outline: none;
-    cursor: auto;
+.header_menu {
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: -6rem;
 }
 
-.header_menu {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: right;
-    margin-right: 10rem;
-    font-weight: bold;
+.header_menu ul {
+    float: right;
 }
 
 .header_menu ul li {
-    display: inline;
+    display: inline-block;
     margin-left: 25px;
     margin-top: -2px;
 }
@@ -49,10 +38,4 @@
 
 .header_menu ul li a:hover {
     color: #028535;
-}
-
-.wave_header {
-    margin-top: -10rem;
-    position: relative;
-    z-index: -1;
 }

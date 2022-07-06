@@ -45,109 +45,109 @@ function Transparencia(){
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Ata - 2021</h3>
-          <a href={ata} download className="btn-transparencia">Download</a>
+          <a href={ata} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Relatório Fotografico</h3>
-          <a href={fotos} download className="btn-transparencia espaco">Download</a>
+          <a href={fotos} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Relatório Anual de Atividades - 2021</h3>
-          <a href={atividades} download className="btn-transparencia">Download</a>
+          <a href={atividades} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Plano de Trabalho e Proposta - 0006/2022</h3>
-          <a  href={plano06} download className="btn-transparencia">Download</a>
+          <a  href={plano06} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Plano de Trabalho e Proposta - 0007/2022</h3>
-          <a  href={plano07} download className="btn-transparencia">Download</a>
+          <a  href={plano07} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Plano de Trabalho e Proposta - 0008/2022</h3>
-          <a  href={plano08} download className="btn-transparencia">Download</a>
+          <a  href={plano08} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>CEBAS - 2025</h3>
-          <a  href={sebas} download className="btn-transparencia">Download</a>
+          <a  href={sebas} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>CEBAS - 2025</h3>
-          <a  href={sebas1} download className="btn-transparencia">Download</a>
+          <a  href={sebas1} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>CNPJ</h3>
-          <a  href={cnpj} download className="btn-transparencia">Download</a>
+          <a  href={cnpj} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>CRCE</h3>
-          <a  href={crce} download className="btn-transparencia">Download</a>
+          <a  href={crce} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Estatuto - 2018</h3>
-          <a  href={estatuto} download className="btn-transparencia">Download</a>
+          <a  href={estatuto} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>INSC - CMAS</h3>
-          <a  href={insc} download className="btn-transparencia">Download</a>
+          <a  href={insc} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>INSC - CMDCA</h3>
-          <a  href={cmdca} download className="btn-transparencia">Download</a>
+          <a  href={cmdca} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Emendas Impositivas</h3>
-          <a  href={emenda_impositiva} download className="btn-transparencia">Download</a>
+          <a  href={emenda_impositiva} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>PT - 2021 - Federal</h3>
-          <a  href={pt_2021} download className="btn-transparencia">Download</a>
+          <a  href={pt_2021} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>TA - 06/2021 - Municipal</h3>
-          <a  href={municipal} download className="btn-transparencia">Download</a>
+          <a  href={municipal} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>TA - 07/2021 - Estadual</h3>
-          <a  href={estadual} download className="btn-transparencia">Download</a>
+          <a  href={estadual} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Ultilidade Publica Municipal</h3>
-          <a  href={ultilidade} download className="btn-transparencia">Download</a>
+          <a  href={ultilidade} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
         </div>
     </section>
