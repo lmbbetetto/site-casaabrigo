@@ -16,6 +16,18 @@
     padding-bottom: 2rem;
 }
 
+.ata {
+    margin-bottom: 5.2rem;
+}
+
+.cnpj {
+    margin-bottom: 5.1rem;
+}
+
+.ulti {
+    margin-bottom: 2.5rem;
+}
+
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 
 @MEDIA screen and (max-width: 600px) {

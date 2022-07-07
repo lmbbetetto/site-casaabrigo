@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import {BsCashCoin} from 'react-icons/bs'
 import {BsCreditCardFill} from 'react-icons/bs'
+import {RiHandHeartFill} from 'react-icons/ri'
 
 function Doe(){
     return(
@@ -27,6 +28,13 @@ function Doe(){
             <BsCashCoin className='about__icon' />
             <h3>Pix</h3>
             <p>47.609.482/0001-45</p>
+          </article>
+
+          <article className='portfolio__item'>
+            <RiHandHeartFill className='about__icon' />
+            <h3>Imposto do Coração</h3>
+            <p className='doe_p' >Doe seu imposto de renda para a Casa Abrigo!</p>
+            <Link to="/contato"><button className="btn-transparencia">Fale Conosco</button></Link>
           </article>
         </div>
 
