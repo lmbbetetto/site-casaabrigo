@@ -1,7 +1,8 @@
 .container.about__container {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
     gap: 2%;
+    margin-bottom: 1.3rem;
 }
 
 .missao_sobre {
@@ -26,12 +27,30 @@
     line-height: 30px;
 }
 
+.missao_valores {
+    color: var(--color-bg);
+    background: var(--color-yellow);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.missao_valores p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+.missao_valores ul li {
+    font-size: 16px;
+    line-height: 30px;
+}
+
 .subtitulo-interno {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
     letter-spacing: .1em;
-    color: #fff;
+    color: var(--color-bg);
     margin-bottom: 20px;
 }
 
@@ -40,7 +59,7 @@
     display: block;
     width: 60px;
     height: 3px;
-    background: #fff;
+    background: var(--color-bg);
     margin: 8px 0;
 }
 
@@ -57,4 +76,22 @@
     text-align: center;
     color: var(--color-white);
     margin-bottom: 3rem;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
+
+@MEDIA screen and (max-width: 1024px) {
+    .container.about__container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+
+@MEDIA screen and (max-width: 600px) {
+    .container.about__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
