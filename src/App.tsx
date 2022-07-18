@@ -2,7 +2,6 @@ import { Route, Routes, Link } from 'react-router-dom'
 
 import './components/header/header.css'
 import logo from './assets/logo.png'
-import { BsFillHeartFill } from 'react-icons/bs'
 
 import './components/wave/wave.css'
 
