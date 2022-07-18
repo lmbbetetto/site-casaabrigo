@@ -1,5 +1,5 @@
 footer {
-    background: #feea00;
+    background: var(--color-pink-primary);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -15,11 +15,12 @@ footer a {
 }
 
 .footer__logo {
-    color: var(--color-bg);
+    color: var(--color-white);
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    border: none;
 }
 
 .permalinks {
@@ -38,7 +39,7 @@ footer a {
 }
 
 .footer__socials a {
-    background: var(--color-bg);
+    background: var(--color-blue-primary);
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 2rem;
@@ -47,7 +48,7 @@ footer a {
 }
 
 .footer__copyright {
-    color: var(--color-bg);
+    color: var(--color-white);
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */

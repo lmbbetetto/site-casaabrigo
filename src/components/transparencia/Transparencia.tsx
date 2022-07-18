@@ -24,9 +24,6 @@ import ultilidade from '../../assets/transparencia/utilidade_publica_municipal.p
 import bombeiro from '../../assets/transparencia/ALVARA_BOMBEIRO.pdf'
 import ultiestadual from '../../assets/transparencia/UTILIDADE_PUBLICA_ESTADUAL.pdf'
 
-
-
-
 function Transparencia(){
     return(
         <section id='transparencia'>

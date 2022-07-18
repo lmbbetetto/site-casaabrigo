@@ -6,8 +6,8 @@
 }
 
 .missao_sobre {
-    color: var(--color-bg);
-    background: var(--color-yellow);
+    color: var(--color-white);
+    background: var(--color-pink-variant);
     padding: 2rem;
     border-radius: 2rem;
 }
@@ -28,8 +28,8 @@
 }
 
 .missao_valores {
-    color: var(--color-bg);
-    background: var(--color-yellow);
+    color: var(--color-white);
+    background: var(--color-pink-variant);
     padding: 2rem;
     border-radius: 2rem;
 }
@@ -69,13 +69,17 @@
 
 .title h5{
     text-align: center;
-    color: var(--color-white);
+    color: var(--color-blue-primary);
 }
 
 .title h2{
     text-align: center;
-    color: var(--color-white);
+    color: var(--color-blue-primary);
     margin-bottom: 3rem;
+}
+
+.sobre {
+    color: var(--color-blue-primary);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */

@@ -24,7 +24,7 @@
 }
 
 .header_menu ul li a {
-    color: var(--color-white);
+    color: var(--color-blue-primary);
     text-transform: uppercase;
     letter-spacing: .1em;
     font-size: 14px;
@@ -37,5 +37,5 @@
 }
 
 .header_menu ul li a:hover {
-    color: #028535;
+    color: var(--color-blue-variant);
 }

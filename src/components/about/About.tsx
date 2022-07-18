@@ -6,7 +6,7 @@ function About(){
     return(
         <>
         <div className='title'>
-            <div className="inicio">
+            <div className="inicio sobre">
                 <h5>Conheça mais sobre a Casa Abrigo</h5>
                 <h2>Sobre a instituição</h2>
             </div>

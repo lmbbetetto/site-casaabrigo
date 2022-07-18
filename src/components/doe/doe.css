@@ -5,8 +5,8 @@
 }
 
 .portfolio__item {
-    background: var(--color-yellow);
-    color: var(--color-bg);
+    background: var(--color-pink-primary);
+    color: var(--color-white);
     padding: 1.3rem;
     border-radius: 2rem;
     border: 2px solid transparent;
@@ -15,8 +15,8 @@
 }
 
 .portfolio__item:hover {
-    color: var(--color-white);
-    border-color: var(--color-white);
+    color: var(--color-pink-variant);
+    border-color: var(--color-blue-primary);
     background: transparent;
 }
 
@@ -40,6 +40,7 @@
     text-align: center;
     margin-top: -2rem;
     margin-bottom: 4rem;
+    color: var(--color-blue-primary);
 }
 
 .inicio h2 {
@@ -55,6 +56,7 @@
 .rodape {
     text-align: center;
     margin-top: 3.9rem;
+    color: var(--color-blue-primary);
 }
 
 .rodape h2 {
