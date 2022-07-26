@@ -5,6 +5,7 @@
 
 .nome__cabecalho h1 {
     font-size: 3.5rem;
+    color: var(--color-blue-primary);
 }
 
 .quote-externo p {
@@ -12,6 +13,7 @@
     margin-top: 3.6rem;
     font-style: italic;
     max-width: 20rem;
+    color: var(--color-blue-variant);
 }
 
 .quote-externo p:before, .quote-externo p:after {
@@ -19,7 +21,7 @@
     display: block;
     width: 10rem;
     height: 0.2rem;
-    background: #fff;
+    background: var(--color-blue-variant);
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -28,6 +30,7 @@
 .conheca__mais {
     margin-top: 5.1rem;
     font-style: italic;
+    color: var(--color-blue-primary);
 }
 
 .conheca__mais button {

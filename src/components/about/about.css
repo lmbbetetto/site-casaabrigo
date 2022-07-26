@@ -1,6 +1,13 @@
 .container.about__container {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 70% 28%;
+    gap: 2%;
+    margin-bottom: 1.3rem;
+}
+
+.container.container__about {
+    display: grid;
+    grid-template-columns: 28% 70%;
     gap: 2%;
     margin-bottom: 1.3rem;
 }
@@ -12,8 +19,16 @@
     border-radius: 2rem;
 }
 
+.cit_fundador {
+    color: var(--color-black);
+    background: var(--color-pink-variant);
+    padding: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+}
+
 .fundo {
-    width: 95%;
+    width: 94%;
 }
 
 .missao_sobre p {

@@ -1,48 +1,32 @@
 import { Route, Routes, Link } from 'react-router-dom'
 
-import './components/header/header.css'
-import logo from './assets/logo.png'
-
 import './components/wave/wave.css'
 
 import './components/footer/footer.css'
-import {ImFacebook} from 'react-icons/im'
+import { ImFacebook } from 'react-icons/im'
 
 import Landing from './components/landing/Landing'
 import Contato from './components/contact/Contact'
 import Sobre from './components/about/About'
 import Transparencia from './components/transparencia/Transparencia'
 import Doe from './components/doe/Doe'
+import Header from './components/header/Header'
+import { Container } from './homeStyles'
 
 
 function App() {
   return (
-    <>
-      <header>
-        <div className='container'>
-
-          <Link to="/"><img src={logo} alt="Casa Abrigo" className="container__header logo__casa"/></Link>
-
-          <nav className='container__header header_menu'>
-            <ul>
-              <li><Link to='/'>Início</Link></li>
-              <li><Link to="/sobre">Sobre</Link></li>
-              <li><Link to="/transparencia">Transparência</Link></li>
-              <li><Link to="/contato">Contato</Link></li>
-              <Link to="/ajude"><button className='btn_doe'>Apoie</button></Link>
-            </ul>
-          </nav>
-        </div>
-      </header>
+    <Container>
+      <Header />
 
       <Routes>
-        <Route path='/' element={<Landing/>} />
+        <Route path='/' element={<Landing />} />
         <Route path='/contato' element={<Contato onSubmitContact={function (e: any): void {
           throw new Error('Function not implemented.')
-        } }/>} />
-        <Route path='/sobre' element={<Sobre/>} />
-        <Route path='/transparencia' element={<Transparencia/>} />
-        <Route path='/ajude' element={<Doe/>} />
+        }} />} />
+        <Route path='/sobre' element={<Sobre />} />
+        <Route path='/transparencia' element={<Transparencia />} />
+        <Route path='/ajude' element={<Doe />} />
       </Routes>
 
       <div className="wave">
@@ -51,18 +35,18 @@ function App() {
 
       <footer>
         <p className='footer__logo'>ACIPP Casa Abrigo</p>
-  
+
         <ul className='permalinks footer'>
           <li><Link to='/'>Início</Link></li>
           <li><Link to='/sobre'>Sobre</Link></li>
           <li><Link to='/transparencia'>Transparência</Link></li>
           <li><Link to='/contato'>Contato</Link></li>
         </ul>
-  
+
         <div className="footer__socials">
-          <a href="https://www.facebook.com/acippcasaabrigo" target='_black'><ImFacebook/></a>
+          <a href="https://www.facebook.com/acippcasaabrigo" target='_black'><ImFacebook /></a>
         </div>
-  
+
         <div className="footer__copyright">
           <small>&copy; ACIPP Casa Abrigo | Todos os direitos reservados.</small>
         </div>
@@ -72,7 +56,7 @@ function App() {
         </div>
       </footer>
 
-    </>
+    </Container>
   )
 }
 

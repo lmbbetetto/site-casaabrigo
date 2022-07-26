@@ -43,7 +43,7 @@ function Transparencia(){
         <div className="container transparencia__container">
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
-          <h3 className='ata transparencia_h3'>Ata - 2021</h3>
+          <h3 className='ata transparencia_h3'>Ata de eleiçao gestão - 2021/2022</h3>
           <a href={ata} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
@@ -105,7 +105,7 @@ function Transparencia(){
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
-          <h3 className='transparencia_h3'>Estatuto - 2018</h3>
+          <h3 className='transparencia_h3'>Estatuto</h3>
           <a  href={estatuto} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
@@ -125,12 +125,6 @@ function Transparencia(){
           <MdPictureAsPdf className='about__icon' />
           <h3 className='transparencia_h3'>Emendas Impositivas</h3>
           <a  href={emenda_impositiva} target='_blank' className="btn-transparencia">Abrir</a>
-        </article>
-
-        <article className='portfolio__item'>
-          <MdPictureAsPdf className='about__icon' />
-          <h3 className='transparencia_h3'>PT - 2021 - Federal</h3>
-          <a  href={pt_2021} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>

@@ -26,7 +26,7 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
+    --container-width-lg: 80%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
@@ -35,7 +35,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg-variant);
     color: var(--color-white);
@@ -45,7 +45,7 @@ body{
 
 /* ============ ESTILOS GERAIS ============ */
 
-.container{
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -54,25 +54,25 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5 {
     font-weight: 500;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
 }
 
-section{
+section {
     margin-top: 8rem;
 }
 
-section > h2,
-section > h5{
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--color-blue-primary);
 }
 
-section > h2{
+section>h2 {
     color: var(--color-blue-primary);
     margin-bottom: 3rem;
 }
@@ -81,12 +81,12 @@ section > h2{
     color: var(--color-light);
 }
 
-a{
+a {
     color: var(--color-blue-primary);
     transition: var(--transition);
 }
 
-.footer a:hover{
+.footer a:hover {
     color: var(--color-blue-variant);
 }
 
@@ -94,7 +94,7 @@ a{
     color: var(--color-blue-variant);
 }
 
-a:hover{
+a:hover {
     color: var(--color-blue-variant);
 }
 
@@ -102,7 +102,7 @@ a:link {
     text-decoration: none;
 }
 
-.btn{
+.btn {
     width: max-content;
     display: inline-block;
     color: var(--color-white);
@@ -113,7 +113,7 @@ a:link {
     transition: var(--transition);
 }
 
-.btn_doe{
+.btn_doe {
     width: max-content;
     display: inline-block;
     background: var(--color-red);
@@ -125,13 +125,13 @@ a:link {
     transition: var(--transition);
 }
 
-.btn_doe:hover{
+.btn_doe:hover {
     background: var(--color-pink-variant);
     color: var(--color-white);
     border-color: transparent;
 }
 
-.btn_green{
+.btn_green {
     width: max-content;
     display: inline-block;
     background: var(--color-pink-primary);
@@ -143,7 +143,7 @@ a:link {
     transition: var(--transition);
 }
 
-.btn_green:hover{
+.btn_green:hover {
     background: var(--color-pink-variant);
     color: var(--color-white);
     border-color: transparent;
@@ -168,13 +168,13 @@ a:link {
     border-color: transparent;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
     background: var(--color-yellow);
     color: var(--color-bg);
 }
@@ -184,7 +184,7 @@ a:link {
     color: var(--color-bg);
 }
 
-img{
+img {
     display: block;
     width: 100%;
     object-fit: cover;
@@ -209,7 +209,7 @@ img{
         width: var(--container-width-sm);
     }
 
-    section > h2{
+    section>h2 {
         margin-bottom: 2rem;
     }
 }

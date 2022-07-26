@@ -3,6 +3,7 @@ import './landing.css'
 
 function Landing(){
     return(
+        <>
         <div className="nome__cabecalho">
             <h1>ACIPP Casa Abrigo</h1>
 
@@ -15,6 +16,7 @@ function Landing(){
                 <Link to="/sobre"><button className="btn btn-yellow">Sobre</button></Link>
             </div>
         </div>
+        </>
     )
 }
 

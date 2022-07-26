@@ -1,30 +1,52 @@
-import './header.css'
+import './styles.css'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { AnimatedHumburguerButton } from './animatedHamburguerButton'
 
 function Header() {
+
+  const [active, setActive] = useState(false)
+
   return (
-    <header>
-      <div className='container'>
-        <nav className='container__header header_menu'>
-         <ul>
-          <input
-            type="search"
-            className='search'
-            placeholder='Procurando algo?'
-          />
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Transparência</a></li>
-          <li><a href="">Contato</a></li>
-          <a href=""><button className='btn btn-yellow'>Doação</button></a>
-         </ul>
-        </nav>
-      </div>
+    <>
+      <header className='desktop container header_container'>
+        <Link to="/"><img src={logo} alt="Casa Abrigo" className="logo__casa" /></Link>
 
-      <div className='logo__casa'>
-          <img src={logo} alt="logo casalar" />
-      </div>
+        <div className='container header_menu'>
+          <a><Link to='/'>Início</Link></a>
+          <a><Link to="/sobre">Sobre</Link></a>
+          <a><Link to="/transparencia">Transparência</Link></a>
+          <a><Link to="/contato">Contato</Link></a>
+          <Link to="/ajude"><button className='btn_doe'>Apoie</button></Link>
+        </div>
+      </header>
 
-    </header>
+      <header className='mobile'>
+        <Link to="/"><img src={logo} alt="Casa Abrigo" className="logo__casa" /></Link>
+
+        <button
+          className='hamburguer'
+          onClick={() => {
+            setActive(!active)
+          }}
+        >
+          <AnimatedHumburguerButton active={active} />
+        </button>
+        <div className={active ? "activeSidenav" : "sidenav"}>
+          <div className="container_mobile">
+            <div className="mobile_1">
+              <a><Link to='/'>Início</Link></a>
+              <a><Link to="/sobre">Sobre</Link></a>
+              <a><Link to="/transparencia">Transparência</Link></a>
+              <a><Link to="/contato">Contato</Link></a>
+              <Link to="/ajude"><button className='btn_doe'>Apoie</button></Link>
+            </div>
+
+          </div>
+        </div>
+      </header>
+    </>
   )
 }
 
