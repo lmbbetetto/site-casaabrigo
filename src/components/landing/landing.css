@@ -14,6 +14,7 @@
     background: linear-gradient(180deg, var(--color-pink-variant) -37%, var(--color-pink-variant) 22%, rgba(255, 255, 255, 0) 100%);
 
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 .apoie-cit {
@@ -50,4 +51,25 @@
     height: 2rem;
 
     color: var(--color-white);
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
+
+@MEDIA screen and (max-width: 1024px) {
+    .bg-apoie {
+        margin-bottom: 13rem;
+    }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+
+@MEDIA screen and (max-width: 600px) {
+    .apoie-cit {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .bg-apoie {
+        margin-bottom: 30rem;
+    }
 }
