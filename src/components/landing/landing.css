@@ -1,38 +1,53 @@
-.nome__cabecalho{
-    margin-top: 5rem;
+.bg {
+    width: 100%;
+    height: 25rem;
+
+    background: var(--color-pink-variant);
+    background: linear-gradient(0deg, var(--color-pink-variant) 0%, rgba(235, 227, 210, 0) 100%);
+}
+
+.bg-apoie {
+    width: 100%;
+    height: 8.6rem;
+
+    background: var(--color-pink-variant);
+    background: linear-gradient(180deg, var(--color-pink-variant) -37%, var(--color-pink-variant) 22%, rgba(255, 255, 255, 0) 100%);
+
     text-align: center;
 }
 
-.nome__cabecalho h1 {
-    font-size: 3.5rem;
-    color: var(--color-blue-primary);
+.apoie-cit {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 2%;
+
+    color: var(--color-black);
+    padding: 1rem;
 }
 
-.quote-externo p {
-    margin: 0 auto;
-    margin-top: 3.6rem;
-    font-style: italic;
-    max-width: 20rem;
-    color: var(--color-blue-variant);
+.botao-apoie {
+    color: var(--color-black);
+    background: var(--color-pink-primary);
+    padding: 2rem;
+    border-radius: 2rem;
 }
 
-.quote-externo p:before, .quote-externo p:after {
-    content: "";
-    display: block;
-    width: 10rem;
-    height: 0.2rem;
-    background: var(--color-blue-variant);
-    margin: 0 auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.botao-apoie button {
+    border: none;
+    font-weight: bold;
+    color: var(--color-black);
+
+    margin-top: 1.8rem;
 }
 
-.conheca__mais {
-    margin-top: 5.1rem;
-    font-style: italic;
-    color: var(--color-blue-primary);
+.botao-apoie h3 {
+    font-weight: bold;
+    color: var(--color-white)
 }
 
-.conheca__mais button {
-    margin-top: 2rem;
+.icon-landing {
+    width: 2rem;
+    height: 2rem;
+
+    color: var(--color-white);
 }

@@ -82,12 +82,12 @@
     margin-top: 8rem;
 }
 
-.title h5{
+.title h5 {
     text-align: center;
     color: var(--color-blue-primary);
 }
 
-.title h2{
+.title h2 {
     text-align: center;
     color: var(--color-blue-primary);
     margin-bottom: 3rem;
@@ -104,12 +104,22 @@
         grid-template-columns: 1fr;
         gap: 1.2rem;
     }
+
+    .container.container__about {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 
 @MEDIA screen and (max-width: 600px) {
     .container.about__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .container.container__about {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
