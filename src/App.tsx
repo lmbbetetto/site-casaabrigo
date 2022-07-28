@@ -1,4 +1,4 @@
-import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer"
 import { Route, Routes, Link } from "react-router-dom";
 import "./components/wave/wave.css";
 import Landing from "./components/landing/Landing";
@@ -18,7 +18,6 @@ function App() {
 
   function handleOpenModal() {
     setOnSubmitContact(true);
-    console.log(onSubmitContact);
   }
 
   function handleCloseModal() {
