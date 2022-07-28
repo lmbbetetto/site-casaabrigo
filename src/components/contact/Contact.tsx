@@ -21,7 +21,7 @@ function Contact({ onSubmitContact }: ContactType) {
     e.preventDefault();
 
     //Tipar form.current
-    emailjs.sendForm('service_98n5t52', 'template_10jwbbz', form.current, 'EHQntXXmTW_cNvFQC')
+    emailjs.sendForm('emailACIPP', 'template_99qbpgb', form.current, 'EHQntXXmTW_cNvFQC')
 
     e.target.reset()
   };
