@@ -1,10 +1,5 @@
 import { Route, Routes, Link } from "react-router-dom";
-
 import "./components/wave/wave.css";
-
-import "./components/footer/footer.css";
-import { ImFacebook } from "react-icons/im";
-
 import Landing from "./components/landing/Landing";
 import Contato from "./components/contact/Contact";
 import Sobre from "./components/about/About";
@@ -32,7 +27,6 @@ function App() {
   return (
     <Container>
       <Header />
-
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/contato" element={<Contato onSubmitContact={handleOpenModal} />} />
@@ -40,7 +34,6 @@ function App() {
         <Route path="/transparencia" element={<Transparencia />} />
         <Route path="/ajude" element={<Doe />} />
       </Routes>
-
       <SubmitModal isOpen={onSubmitContact} onRequestClose={handleCloseModal} />
       <Wave />
       <Footer />
