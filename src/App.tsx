@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer";
 import { Route, Routes, Link } from "react-router-dom";
 import "./components/wave/wave.css";
 import Landing from "./components/landing/Landing";
@@ -7,7 +8,7 @@ import Transparencia from "./components/transparencia/Transparencia";
 import Doe from "./components/doe/Doe";
 import Header from "./components/header/Header";
 import { Container } from "./homeStyles";
-import Footer from "./components/footer/Footer";
+
 import Wave from "./components/wave/Wave";
 import { useState } from "react";
 import SubmitModal from "./components/Modal/modal";
