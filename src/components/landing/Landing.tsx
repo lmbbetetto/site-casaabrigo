@@ -17,12 +17,12 @@ function Landing() {
               Conheça a nossa história, citações de nossa sócia fundadora e
               voluntários!
             </h3>
-            <button className="btn-transparencia">Conheça a Casa Abrigo</button>
+            <Link to="/sobre"><button className="btn-transparencia">Conheça a Casa Abrigo</button></Link>
           </div>
           <div className="botao-apoie">
             <BsCashCoin className="icon-landing" />
             <h3>Descubra as várias maneiras de ajudar a ACIP Casa Abrigo!</h3>
-            <button className="btn-transparencia">Apoie</button>
+            <Link to="/ajude"><button className="btn-transparencia">Apoie</button></Link>
           </div>
         </div>
       </div>
