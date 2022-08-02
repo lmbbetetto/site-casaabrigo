@@ -101,6 +101,7 @@
     padding: 0 0 2rem;
     max-width: 190px;
     margin: 0 auto;
+    border-radius: 2rem ;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
