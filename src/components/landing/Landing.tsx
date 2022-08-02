@@ -4,10 +4,14 @@ import "./landing.css";
 import { ImSearch } from "react-icons/im";
 import { BsCashCoin } from "react-icons/bs";
 
+import landing from '../../assets/fundo_landing.png'
+
 function Landing() {
   return (
     <>
-      <div className="bg"></div>
+      <div className="bg">
+        <img src={landing} alt="Casa Abrigo" className="img_landing" />
+      </div>
 
       <div className="bg-apoie">
         <div className="container apoie-cit">

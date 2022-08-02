@@ -23,7 +23,7 @@
     gap: 2%;
 
     color: var(--color-black);
-    padding: 1rem;
+    padding: 7rem 0 0 0;
 }
 
 .botao-apoie {
@@ -53,6 +53,12 @@
     color: var(--color-white);
 }
 
+.img_landing {
+    max-width: 500px;
+    padding: 5rem 0 0 0;
+    margin: 0 auto;
+}
+
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 
 @MEDIA screen and (max-width: 1024px) {
@@ -71,5 +77,10 @@
 
     .bg-apoie {
         margin-bottom: 30rem;
+    }
+
+    .img_landing {
+        max-width: 300px;
+        padding-top: 7.3rem;
     }
 }
