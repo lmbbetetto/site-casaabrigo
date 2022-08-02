@@ -49,7 +49,7 @@ function Contact({ onSubmitContact }: ContactType) {
           <article className="contact__option">
             <GiPositionMarker className='contact__option-icon' />
             <h4>Endereço</h4>
-            <h5>Rua Ferreira da Rocha, 66 - Barra Funda</h5>
+            <h5>Rua Rui Ferreira da Rocha, 66 - Barra Funda</h5>
             <h5>Paraguaçu Paulista - SP</h5>
           </article>
 

@@ -25,7 +25,7 @@ function Landing() {
           </div>
           <div className="botao-apoie">
             <BsCashCoin className="icon-landing" />
-            <h3>Descubra as várias maneiras de ajudar a ACIP Casa Abrigo!</h3>
+            <h3>Descubra as várias maneiras de ajudar a ACIPP Casa Abrigo!</h3>
             <Link to="/ajude"><button className="btn-transparencia">Apoie</button></Link>
           </div>
         </div>
