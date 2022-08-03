@@ -44,6 +44,7 @@ function About() {
 
             <section className='container about__container'>
                 <div className='cit_fundador'>
+                    <h2 className="subtitulo-interno">Palavra Sócia Fundadora</h2>
                     <p>Até 1990 as crianças e adolescentes eram “supervisionados “ pelo Código do Menor voltado para as imposições sobre as diversas situações, sem considerar a criança e o adolescente como cidadão e como seres não autônomos.</p>
                     <p>Com o surgimento do ECA em 13/07/1990 através da Lei Federal nº8069/90, a criança e o adolescente passaram a ser sujeitos de direitos.</p>
                     <p>Em Paraguaçu Paulista, como não podia ser diferente, a criança abandonada ou em situação de vulnerabilidade social, nãotinha nenhuma proteção garantida, surgindo inclusive situações de certa forma constrangedoras, como colocar adolescentes no Lar dos Idosos por falta de local adequado. Devido a essas situações reais, nos conscientizamos que a criança e o adolescente precisavam de políticas públicas, nos levando a discutir esse assunto tão pertinente, quando vimos, já estávamos envolvidos “ de cabeça” nessa questão da criança e do adolescente abandonados ou em situação vulnerável. Teríamos que repensar a problemática e parar de improvisar questões como essa.</p>
