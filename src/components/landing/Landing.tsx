@@ -11,6 +11,9 @@ function Landing() {
     <>
       <div className="bg">
         <img src={landing} alt="Casa Abrigo" className="img_landing" />
+
+        <h3 className="cit_landing">"Quando se sonha sozinho é só um sonho. <br />Qunato sonhamos juntos começa uma nova realidade"</h3>
+        <h2 className="subtitulo_landing">Cervantes</h2>
       </div>
 
       <div className="bg-apoie">

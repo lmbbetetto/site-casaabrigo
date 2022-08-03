@@ -123,19 +123,13 @@ function Transparencia(){
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
-          <h3 className='transparencia_h3'>Emendas Impositivas</h3>
-          <a  href={emenda_impositiva} target='_blank' className="btn-transparencia">Abrir</a>
-        </article>
-
-        <article className='portfolio__item'>
-          <MdPictureAsPdf className='about__icon' />
-          <h3 className='ulti transparencia_h3'>Ultilidade Publica Municipal</h3>
+          <h3 className='ulti transparencia_h3'>Utilidade Publica Municipal</h3>
           <a  href={ultilidade} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 
         <article className='portfolio__item'>
           <MdPictureAsPdf className='about__icon' />
-          <h3 className='ulti transparencia_h3'>Ultilidade Publica Estadual</h3>
+          <h3 className='ulti transparencia_h3'>Utilidade Publica Estadual</h3>
           <a  href={ultiestadual} target='_blank' className="btn-transparencia">Abrir</a>
         </article>
 

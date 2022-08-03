@@ -14,7 +14,7 @@
     background: linear-gradient(180deg, var(--color-pink-variant) -37%, var(--color-pink-variant) 22%, rgba(255, 255, 255, 0) 100%);
 
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 25rem;
 }
 
 .apoie-cit {
@@ -23,7 +23,7 @@
     gap: 2%;
 
     color: var(--color-black);
-    padding: 7rem 0 0 0;
+    padding: 20rem 0 0 0;
 }
 
 .botao-apoie {
@@ -59,6 +59,32 @@
     margin: 0 auto;
 }
 
+.cit_landing {
+    text-align: center;
+    padding: 2rem;
+    color: var(--color-black);
+    font-style: italic;
+}
+
+.subtitulo_landing {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.17rem;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+
+.subtitulo_landing:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--color-black);
+    margin: 0 auto;
+}
+
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 
 @MEDIA screen and (max-width: 1024px) {
@@ -76,7 +102,7 @@
     }
 
     .bg-apoie {
-        margin-bottom: 30rem;
+        margin-bottom: 45rem;
     }
 
     .img_landing {
