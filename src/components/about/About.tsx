@@ -59,7 +59,7 @@ function About() {
                     <img src={almira} alt="almira" className='foto_ea' />
                     <h2 className="subtitulo-interno">Almira Ribas Garms</h2>
                     <h3 className="sub_socia">(Sócia Fundadora)</h3>
-                    <p>Bacharel em Teologia, possui Graduação em Gestão Pública e Pedagogia. Trabalhou sempre na organização, criação e estruturação de entidades assistenciais, filantrópicas e de atendimento ao cidadão e sua família. Foi a Primeira Dama e Presidente do Fundo Social de Solidariedade por 03 mandatos. Exerceu o cargo de Vereadora por 02 mandatos, primeira mulher a ocupar a Presidência do Legislativo Municipal por duas vezes. Também a primeira mulher a ocupar o cargo máximo do Executivo Municipal.
+                    <p>Bacharel em Teologia, possui Graduação em Gestão Pública e Pedagogia. Trabalhou sempre na organização, criação e estruturação de entidades assistenciais, filantrópicas e de atendimento ao cidadão e sua família. Foi a Primeira Dama e Presidente do Fundo Social de Solidariedade por 03 mandatos. Exerceu o cargo de Vereadora por 04 mandatos, primeira mulher a ocupar a Presidência do Legislativo Municipal por duas vezes. Também a primeira mulher a ocupar o cargo máximo do Executivo Municipal.
                     </p>
                 </div>
             </section>
