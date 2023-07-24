@@ -14,6 +14,8 @@ import { Container } from "./homeStyles";
 import Wave from "./components/wave/Wave";
 import { useState } from "react";
 import SubmitModal from "./components/Modal/modal";
+import { Trasnparencia2022 } from "./components/transparencia/2022/Transp2022";
+import { Trasnparencia2023 } from "./components/transparencia/2023/Transp2023";
 
 function App() {
   const [onSubmitContact, setOnSubmitContact] = useState(false);
@@ -26,6 +28,10 @@ function App() {
     setOnSubmitContact(false);
   }
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <Container>
       <Header />
@@ -37,6 +43,8 @@ function App() {
         />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/transparencia" element={<Transparencia />} />
+        <Route path="/transparencia2022" element={<Trasnparencia2022 />} />
+        <Route path="/transparencia2023" element={<Trasnparencia2023 />} />
         <Route path="/ajude" element={<Doe />} />
       </Routes>
       <SubmitModal isOpen={onSubmitContact} onRequestClose={handleCloseModal} />
@@ -46,16 +54,16 @@ function App() {
         <p className="footer__logo">ACIPP Casa Abrigo</p>
 
         <ul className="permalinks footer">
-          <li>
+          <li onClick={scrollToTop}>
             <Link to="/">Início</Link>
           </li>
-          <li>
+          <li onClick={scrollToTop}>
             <Link to="/sobre">Sobre</Link>
           </li>
-          <li>
+          <li onClick={scrollToTop}>
             <Link to="/transparencia">Transparência</Link>
           </li>
-          <li>
+          <li onClick={scrollToTop}>
             <Link to="/contato">Contato</Link>
           </li>
         </ul>

@@ -1,32 +1,34 @@
-.transparencia__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+.containerCards {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.sinconvinho {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2.5rem;
-
-    padding-bottom: 2.5rem;
+.card {
+    padding: 2rem;
+    background: var(--color-pink-primary);
+    border: transparent 2px solid;
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
-.transparencia_h3 {
-    padding-bottom: 2rem;
+.card h1 {
+    color: var(--color-white);
 }
 
-.ata {
-    margin-bottom: 5.2rem;
+.card:hover {
+    background: transparent;
+    border: var(--color-blue-primary) 2px solid;
+    color: var(--color-black);
 }
 
-.cnpj {
-    margin-bottom: 5.1rem;
-}
 
-.ulti {
-    margin-bottom: 2.5rem;
-}
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 
@@ -35,6 +37,10 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2.5rem;
+    }
+
+    .containerCards {
+        flex-direction: column;
     }
     
 }
