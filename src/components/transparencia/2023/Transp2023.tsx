@@ -17,11 +17,16 @@ import taF from '../../../assets/transparencia/2023/TA-04-2023-FEDERAL.pdf'
 import utilidade from '../../../assets/transparencia/2023/UTILIDADE PUBLICA ESTADUAL 2023.pdf'
 
 export function Trasnparencia2023() {
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <>
             <section id='transparencia'>
                 <div className={style.voltar}>
-                    <Link to={'/transparencia'}><button><BsArrowLeft size={25} />Voltar</button></Link>
+                    <Link to={'/transparencia'}><button onClick={scrollToTop}><BsArrowLeft size={25} />Voltar</button></Link>
                 </div>
 
 

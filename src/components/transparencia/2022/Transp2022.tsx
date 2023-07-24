@@ -52,11 +52,17 @@ import rp10tf28Anual from '../../../assets/transparencia/2022/RP10-TF28-TA20-FMD
 import { Link } from 'react-router-dom'
 
 export function Trasnparencia2022() {
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
+
+
     return (
         <>
             <section id='transparencia'>
                 <div className={style.voltar}>
-                    <Link to={'/transparencia'}><button><BsArrowLeft size={25} />Voltar</button></Link>
+                    <Link to={'/transparencia'}><button onClick={scrollToTop}><BsArrowLeft size={25} />Voltar</button></Link>
                 </div>
 
                 <div className="inicio">
