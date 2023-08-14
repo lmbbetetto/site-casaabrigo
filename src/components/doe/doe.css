@@ -12,9 +12,30 @@
     border: 2px solid transparent;
     text-align: center;
     transition: var(--transition);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .portfolio__item:hover {
+    color: var(--color-pink-primary);
+    border-color: var(--color-blue-primary);
+    background: transparent;
+}
+
+.portfolio__items {
+    background: var(--color-pink-primary);
+    color: var(--color-white);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.portfolio__items:hover {
     color: var(--color-pink-primary);
     border-color: var(--color-blue-primary);
     background: transparent;

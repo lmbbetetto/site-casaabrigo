@@ -15,6 +15,7 @@ import tf from '../../../assets/transparencia/2023/TF 04-2023-EMENDA IMPOSITIVA.
 import taE from '../../../assets/transparencia/2023/TA-03-2023- ESTADUAL.pdf'
 import taF from '../../../assets/transparencia/2023/TA-04-2023-FEDERAL.pdf'
 import utilidade from '../../../assets/transparencia/2023/UTILIDADE PUBLICA ESTADUAL 2023.pdf'
+import CMAS from '../../../assets/transparencia/2023/CMAS2023.pdf'
 
 export function Trasnparencia2023() {
 
@@ -94,6 +95,12 @@ export function Trasnparencia2023() {
                         <MdPictureAsPdf className='about__icon' />
                         <h3 className='ata transparencia_h3'>UTILIDADE PUBLICA ESTADUAL 2023</h3>
                         <a href={utilidade} target='_blank' className="btn-transparencia">Abrir</a>
+                    </article>
+
+                    <article className='portfolio__item'>
+                        <MdPictureAsPdf className='about__icon' />
+                        <h3 className='ata transparencia_h3'>CMAS 2023</h3>
+                        <a href={CMAS} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
                 </div>
             </section>

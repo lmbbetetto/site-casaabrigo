@@ -48,6 +48,7 @@ import rp10tf14Anual from '../../../assets/transparencia/2022/RP10-TF14-EMENDAS 
 import rp10tf28_2 from '../../../assets/transparencia/2022/RP10-TF28-FMDCA-2ºQUADRIMESTRE 2022.pdf'
 import rp10tf28_3 from '../../../assets/transparencia/2022/RP10-TF28-TA20-FMDCA-3ºQUADRIMESTRE 2022.pdf'
 import rp10tf28Anual from '../../../assets/transparencia/2022/RP10-TF28-TA20-FMDCA-ANUAL 2022.pdf'
+import BALANCO from '../../../assets/transparencia/2022/BALANÇO2022.pdf'
 
 import { Link } from 'react-router-dom'
 
@@ -331,6 +332,12 @@ export function Trasnparencia2022() {
                         <MdPictureAsPdf className='about__icon' />
                         <h3 className='transparencia_h3'>RP10 - TF28 Anual - FMDCA</h3>
                         <a href={rp10tf28Anual} target='_blank' className="btn-transparencia">Abrir</a>
+                    </article>
+                    
+                    <article className='portfolio__item'>
+                        <MdPictureAsPdf className='about__icon' />
+                        <h3 className='transparencia_h3'>BALANÇO 2022</h3>
+                        <a href={BALANCO} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
                 </div>
             </section>
