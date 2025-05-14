@@ -1,21 +1,23 @@
-import "./components/footer/footer.css"
-import { ImFacebook } from "react-icons/im";
-
 import { Route, Routes, Link } from "react-router-dom";
-import "./components/wave/wave.css";
-import Landing from "./components/landing/Landing";
-import Contato from "./components/contact/Contact";
-import Sobre from "./components/about/About";
-import Transparencia from "./components/transparencia/Transparencia";
-import Doe from "./components/doe/Doe";
-import Header from "./components/header/Header";
+import Landing from "./pages/landing/Landing";
+import Contato from "./pages/contact/Contact";
+import Sobre from "./pages/about/About";
+// import Transparencia from "./pages/transparenciaa/Transparencia";
+import Doe from "./pages/doe/Doe";
+import { Header } from "./component/header/Header";
 import { Container } from "./homeStyles";
-
-import Wave from "./components/wave/Wave";
 import { useState } from "react";
-import SubmitModal from "./components/Modal/modal";
-import { Trasnparencia2022 } from "./components/transparencia/2022/Transp2022";
-import { Trasnparencia2023 } from "./components/transparencia/2023/Transp2023";
+import SubmitModal from "./pages/Modal/modal";
+// import { Trasnparencia2022 } from "./pages/transparenciaa/2022/Transp2022";
+// import { Trasnparencia2023 } from "./pages/transparenciaa/2023/Transp2023";
+import { Footer } from "./component/footer/footer";
+import { Transparencia } from "./pages/transparencia";
+import { DocAssociacao } from "./pages/transparencia/doc-associacao/doc-associacao";
+import { DocPrestacaoContas } from "./pages/transparencia/prestacao-contas/prestacao-contas";
+import { Doc2022 } from "./pages/transparencia/prestacao-contas/2022/2022";
+import { Doc2023 } from "./pages/transparencia/prestacao-contas/2023/2023";
+import { Doc2024 } from "./pages/transparencia/prestacao-contas/2024/2024";
+import { Doc2025 } from "./pages/transparencia/prestacao-contas/2025/2025";
 
 function App() {
   const [onSubmitContact, setOnSubmitContact] = useState(false);
@@ -28,10 +30,6 @@ function App() {
     setOnSubmitContact(false);
   }
 
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
-
   return (
     <Container>
       <Header />
@@ -42,53 +40,40 @@ function App() {
           element={<Contato onSubmitContact={handleOpenModal} />}
         />
         <Route path="/sobre" element={<Sobre />} />
-        <Route path="/transparencia" element={<Transparencia />} />
+        {/* <Route path="/transparencia" element={<Transparencia />} />
         <Route path="/transparencia2022" element={<Trasnparencia2022 />} />
-        <Route path="/transparencia2023" element={<Trasnparencia2023 />} />
+        <Route path="/transparencia2023" element={<Trasnparencia2023 />} /> */}
+
+        {/* Transparência */}
+        <Route path="/transparencia" element={<Transparencia />} />
+        <Route
+          path="/transparencia/documentos-associacao"
+          element={<DocAssociacao />}
+        />
+        <Route
+          path="/transparencia/prestacao-contas"
+          element={<DocPrestacaoContas />}
+        />
+        <Route
+          path="/transparencia/prestacao-contas/documentos-2022"
+          element={<Doc2022 />}
+        />
+        <Route
+          path="/transparencia/prestacao-contas/documentos-2023"
+          element={<Doc2023 />}
+        />
+        <Route
+          path="/transparencia/prestacao-contas/documentos-2024"
+          element={<Doc2024 />}
+        />
+        <Route
+          path="/transparencia/prestacao-contas/documentos-2025"
+          element={<Doc2025 />}
+        />
         <Route path="/ajude" element={<Doe />} />
       </Routes>
       <SubmitModal isOpen={onSubmitContact} onRequestClose={handleCloseModal} />
-      <Wave />
-
-      <footer>
-        <p className="footer__logo">ACIPP Casa Abrigo</p>
-
-        <ul className="permalinks footer">
-          <li onClick={scrollToTop}>
-            <Link to="/">Início</Link>
-          </li>
-          <li onClick={scrollToTop}>
-            <Link to="/sobre">Sobre</Link>
-          </li>
-          <li onClick={scrollToTop}>
-            <Link to="/transparencia">Transparência</Link>
-          </li>
-          <li onClick={scrollToTop}>
-            <Link to="/contato">Contato</Link>
-          </li>
-        </ul>
-
-        <div className="footer__socials">
-          <a href="https://www.facebook.com/acippcasaabrigo" target="_black">
-            <ImFacebook />
-          </a>
-        </div>
-
-        <div className="footer__copyright">
-          <small>
-            &copy; ACIPP Casa Abrigo | Todos os direitos reservados.
-          </small>
-        </div>
-
-        <div className="footer__copyright">
-          <small>
-            Criado por{" "}
-            <a href="https://www.leonardobetetto.dev" target="_blank">
-              Leonardo Betetto
-            </a>
-          </small>
-        </div>
-      </footer>
+      <Footer />
     </Container>
   );
 }
