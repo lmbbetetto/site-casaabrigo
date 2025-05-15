@@ -1,0 +1,46 @@
+.containerCards {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    background: var(--color-pink-primary);
+    border: transparent 2px solid;
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card h1 {
+    color: var(--color-white);
+}
+
+.card:hover {
+    background: transparent;
+    border: var(--color-blue-primary) 2px solid;
+    color: var(--color-black);
+}
+
+
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+
+@MEDIA screen and (max-width: 600px) {
+    .transparencia__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+    }
+
+    .containerCards {
+        flex-direction: column;
+    }
+    
+}
