@@ -2,14 +2,14 @@ import { Route, Routes, Link } from "react-router-dom";
 import Landing from "./pages/landing/Landing";
 import Contato from "./pages/contact/Contact";
 import Sobre from "./pages/about/About";
-// import Transparencia from "./pages/transparenciaa/Transparencia";
+import Transparenciaa from "./pages/transparenciaa/Transparencia";
 import Doe from "./pages/doe/Doe";
 import { Header } from "./component/header/Header";
 import { Container } from "./homeStyles";
 import { useState } from "react";
 import SubmitModal from "./pages/Modal/modal";
-// import { Trasnparencia2022 } from "./pages/transparenciaa/2022/Transp2022";
-// import { Trasnparencia2023 } from "./pages/transparenciaa/2023/Transp2023";
+import { Trasnparencia2022 } from "./pages/transparenciaa/2022/Transp2022";
+import { Trasnparencia2023 } from "./pages/transparenciaa/2023/Transp2023";
 import { Footer } from "./component/footer/footer";
 import { Transparencia } from "./pages/transparencia";
 import { DocAssociacao } from "./pages/transparencia/doc-associacao/doc-associacao";
@@ -40,12 +40,12 @@ function App() {
           element={<Contato onSubmitContact={handleOpenModal} />}
         />
         <Route path="/sobre" element={<Sobre />} />
-        {/* <Route path="/transparencia" element={<Transparencia />} />
+        <Route path="/transparencia" element={<Transparenciaa />} />
         <Route path="/transparencia2022" element={<Trasnparencia2022 />} />
-        <Route path="/transparencia2023" element={<Trasnparencia2023 />} /> */}
+        <Route path="/transparencia2023" element={<Trasnparencia2023 />} />
 
         {/* Transparência */}
-        <Route path="/transparencia" element={<Transparencia />} />
+        <Route path="/transparenciaaa" element={<Transparencia />} />
         <Route
           path="/transparencia/documentos-associacao"
           element={<DocAssociacao />}

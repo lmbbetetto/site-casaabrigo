@@ -2,10 +2,6 @@ import { CardTransparencia } from "../card-transparencia";
 import style from "./style.module.css";
 import imgFundo from "../../../assets/fundo-transparencia.png";
 
-import PDF1 from "../../../assets/transparencia/documentosAssociacao/ASSOCIACAO CASA LAR - BP 2022_ASSINADO.pdf";
-import PDF2 from "../../../assets/transparencia/documentosAssociacao/estatuto 12ª alteração.pdf";
-import PDF3 from "../../../assets/transparencia/documentosAssociacao/ata.pdf";
-import PDF4 from "../../../assets/transparencia/documentosAssociacao/Cadastro membros diretoria 25.26.pdf";
 import { MdOutlinePictureAsPdf } from "react-icons/md";
 import { BtnBack } from "../../../component/buttonBack/back";
 
@@ -13,19 +9,19 @@ export function DocAssociacao() {
   const documents = [
     {
       title: "Balanço Patrimonial",
-      link: PDF1,
+      link: "PDF1",
     },
     {
       title: "Ata Alteração e Consolidação 12º Estatuto",
-      link: PDF2,
+      link: "PDF2",
     },
     {
       title: "Ata Eleição e Posse - 2025 e 2026",
-      link: PDF3,
+      link: "PDF3",
     },
     {
       title: "Termo de Posse - 2025 e 2026",
-      link: PDF4,
+      link: "PDF4",
     },
   ];
   return (
