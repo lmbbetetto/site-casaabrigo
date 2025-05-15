@@ -1,7 +1,7 @@
 import { CardTransparencia } from "../../card-transparencia";
 import style from "./style.module.css";
 
-import imgFundo from "../../../../assets/fundo-transparencia.png";
+import imgFundo from "../../../../assets/transparencia.jpg";
 
 import { MdOutlinePictureAsPdf } from "react-icons/md";
 import { BtnBack } from "../../../../component/buttonBack/back";
@@ -31,7 +31,7 @@ export function Doc2025() {
         <div className={style.tituloTexto}>
           <p>Transparência</p>
           <h1>Balanço 2025</h1>
-          <h2>Assoc. Casa Lar</h2>
+          <h2>ACIPP Casa Abrigo</h2>
         </div>
         <img src={imgFundo} alt="Imagem de fundo" className={style.imgFundo} />
       </div>
@@ -39,13 +39,18 @@ export function Doc2025() {
       <div className={style.container}>
         <BtnBack link="/transparencia/prestacao-contas" />
         <h1 className={style.textoPrincipal}>
-          A <span className={style.textoPrincipalGreen}>Casa Lar</span>, tem a
+          A{" "}
+          <span className={style.textoPrincipalGreen}>ACIPP Casa Abrigo </span>
+          preza pela
           <span className={style.textoPrincipalGreen}> transparência </span>
-          como um princípio, por isso, disponibilizamos nossos{" "}
+          em suas ações e, por isso,{" "}
           <span className={style.textoPrincipalGreen}>
-            relatórios, balanços e convênios com o poder público
-          </span>
-          !
+            torna públicos{" "}
+          </span>seus{" "}
+          <span className={style.textoPrincipalGreen}>
+            relatórios, balanços e convênios
+          </span>{" "}
+          firmados com o poder público.
         </h1>
         {documents2025.map((group, groupIndex) => (
           <div key={groupIndex} className={style.fomento}>

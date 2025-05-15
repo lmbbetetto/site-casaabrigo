@@ -1,6 +1,6 @@
 import { CardTransparencia } from "../card-transparencia";
 import style from "./style.module.css";
-import imgFundo from "../../../assets/fundo-transparencia.png";
+import imgFundo from "../../../assets/transparencia.jpg";
 
 import { MdOutlinePictureAsPdf } from "react-icons/md";
 import { BtnBack } from "../../../component/buttonBack/back";
@@ -30,7 +30,7 @@ export function DocAssociacao() {
         <div className={style.tituloTexto}>
           <p>Transparência</p>
           <h1>Documentos Associação</h1>
-          <h2>Assoc. Casa Lar</h2>
+          <h2>ACIPP Casa Abrigo</h2>
         </div>
         <img src={imgFundo} alt="Imagem de fundo" className={style.imgFundo} />
       </div>

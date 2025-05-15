@@ -1,9 +1,9 @@
 import { Route, Routes, Link } from "react-router-dom";
 import Landing from "./pages/landing/Landing";
-import Contato from "./pages/contact/Contact";
-import Sobre from "./pages/about/About";
+import { Contact } from "./pages/contact/Contact";
+import { About } from "./pages/about/About";
 import Transparenciaa from "./pages/transparenciaa/Transparencia";
-import Doe from "./pages/doe/Doe";
+import { Doe } from "./pages/doe/Doe";
 import { Header } from "./component/header/Header";
 import { Container } from "./homeStyles";
 import { useState } from "react";
@@ -14,9 +14,6 @@ import { Footer } from "./component/footer/footer";
 import { Transparencia } from "./pages/transparencia";
 import { DocAssociacao } from "./pages/transparencia/doc-associacao/doc-associacao";
 import { DocPrestacaoContas } from "./pages/transparencia/prestacao-contas/prestacao-contas";
-import { Doc2022 } from "./pages/transparencia/prestacao-contas/2022/2022";
-import { Doc2023 } from "./pages/transparencia/prestacao-contas/2023/2023";
-import { Doc2024 } from "./pages/transparencia/prestacao-contas/2024/2024";
 import { Doc2025 } from "./pages/transparencia/prestacao-contas/2025/2025";
 
 function App() {
@@ -37,9 +34,9 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route
           path="/contato"
-          element={<Contato onSubmitContact={handleOpenModal} />}
+          element={<Contact onSubmitContact={handleOpenModal} />}
         />
-        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/sobre" element={<About />} />
         <Route path="/transparencia" element={<Transparenciaa />} />
         <Route path="/transparencia2022" element={<Trasnparencia2022 />} />
         <Route path="/transparencia2023" element={<Trasnparencia2023 />} />
@@ -55,21 +52,10 @@ function App() {
           element={<DocPrestacaoContas />}
         />
         <Route
-          path="/transparencia/prestacao-contas/documentos-2022"
-          element={<Doc2022 />}
-        />
-        <Route
-          path="/transparencia/prestacao-contas/documentos-2023"
-          element={<Doc2023 />}
-        />
-        <Route
-          path="/transparencia/prestacao-contas/documentos-2024"
-          element={<Doc2024 />}
-        />
-        <Route
           path="/transparencia/prestacao-contas/documentos-2025"
           element={<Doc2025 />}
         />
+
         <Route path="/ajude" element={<Doe />} />
       </Routes>
       <SubmitModal isOpen={onSubmitContact} onRequestClose={handleCloseModal} />

@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 
-import imgFundo from "../../assets/fundo-transparencia.png";
+import imgFundo from "../../assets/transparencia.jpg";
 import { CardTransparencia } from "./card-transparencia";
 import { IoDocumentOutline } from "react-icons/io5";
 

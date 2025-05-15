@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
-.mobile {
+  .mobile {
     display: none;
   }
 
-@media (max-width: 720px) {
-    .desktop {
+  @media (max-width: 720px) {
+    .containerMenu {
       display: none;
     }
     .mobile {
@@ -43,7 +42,8 @@ export const Container = styled.div`
       transition: all 0.5s ease-in-out;
       z-index: 1;
 
-      @media (max-width: 300px) { //Galaxy Fold
+      @media (max-width: 300px) {
+        //Galaxy Fold
         transform: translateX(40%);
       }
     }
@@ -56,4 +56,4 @@ export const Container = styled.div`
       max-width: 60px;
     }
   }
-`
+`;

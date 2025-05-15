@@ -18,6 +18,7 @@
   display: grid;
   grid-template-columns: 36.11% 63.89%;
   align-items: center;
+  height: 29rem;
 }
 
 .tituloTexto {
@@ -60,7 +61,7 @@
 
 .textoPrincipalGreen {
   text-align: left;
-  color: var(--color-green);
+  color: var(--color-pink-primary);
   font-size: 28px;
 }
 
