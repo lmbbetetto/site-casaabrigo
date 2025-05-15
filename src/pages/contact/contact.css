@@ -85,4 +85,13 @@ textarea {
   .container.contact__container {
     width: var(--container-width-sm);
   }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .btn_form {
+    width: 100%;
+  }
 }
