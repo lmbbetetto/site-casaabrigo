@@ -4,26 +4,9 @@ import imgFundo from "../../../assets/transparencia.jpg";
 
 import { MdOutlinePictureAsPdf } from "react-icons/md";
 import { BtnBack } from "../../../component/buttonBack/back";
+import { docAssosiacao } from "../mock/mock-doc-associacao";
 
 export function DocAssociacao() {
-  const documents = [
-    {
-      title: "Balanço Patrimonial",
-      link: "PDF1",
-    },
-    {
-      title: "Ata Alteração e Consolidação 12º Estatuto",
-      link: "PDF2",
-    },
-    {
-      title: "Ata Eleição e Posse - 2025 e 2026",
-      link: "PDF3",
-    },
-    {
-      title: "Termo de Posse - 2025 e 2026",
-      link: "PDF4",
-    },
-  ];
   return (
     <>
       <div className={style.titulo}>
@@ -38,16 +21,21 @@ export function DocAssociacao() {
       <div className={style.container}>
         <BtnBack link="/transparencia" />
         <h1 className={style.textoPrincipal}>
-          A <span className={style.textoPrincipalGreen}>Casa Lar</span>, tem a
+          A{" "}
+          <span className={style.textoPrincipalGreen}>ACIPP Casa Abrigo </span>
+          preza pela
           <span className={style.textoPrincipalGreen}> transparência </span>
-          como um princípio, por isso, disponibilizamos nossos{" "}
+          em suas ações e, por isso,{" "}
           <span className={style.textoPrincipalGreen}>
-            relatórios, balanços e convênios com o poder público
-          </span>
-          !
+            torna públicos{" "}
+          </span>seus{" "}
+          <span className={style.textoPrincipalGreen}>
+            relatórios, balanços e convênios
+          </span>{" "}
+          firmados com o poder público.
         </h1>
         <div className={style.cards}>
-          {documents.map((component, index) => (
+          {docAssosiacao.map((component, index) => (
             <CardTransparencia
               key={index}
               title={component.title}

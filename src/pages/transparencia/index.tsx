@@ -29,13 +29,18 @@ export function Transparencia() {
       </div>
       <div className={style.container}>
         <h1 className={style.textoPrincipal}>
-          A <span className={style.textoPrincipalGreen}>Casa Lar</span>, tem a
+          A{" "}
+          <span className={style.textoPrincipalGreen}>ACIPP Casa Abrigo </span>
+          preza pela
           <span className={style.textoPrincipalGreen}> transparência </span>
-          como um princípio, por isso, disponibilizamos nossos{" "}
+          em suas ações e, por isso,{" "}
           <span className={style.textoPrincipalGreen}>
-            relatórios, balanços e convênios com o poder público
-          </span>
-          !
+            torna públicos{" "}
+          </span>seus{" "}
+          <span className={style.textoPrincipalGreen}>
+            relatórios, balanços e convênios
+          </span>{" "}
+          firmados com o poder público.
         </h1>
         <div className={style.cards}>
           {cards.map((card, index) => (

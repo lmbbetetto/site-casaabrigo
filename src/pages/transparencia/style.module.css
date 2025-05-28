@@ -129,7 +129,7 @@
   .titulo {
     grid-template-columns: 50% 50%;
     height: 20rem;
-    align-itens: stretch;
+    align-items: stretch;
   }
 
   .tituloTexto {
