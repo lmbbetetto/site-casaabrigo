@@ -24,9 +24,9 @@
 }
 
 .logo__casa {
-  max-width: 6.5rem;
+  max-width: 6rem;
   position: relative;
-  top: 1.4rem;
+  top: 2rem;
 }
 
 .itensMenu ul {
@@ -63,7 +63,7 @@
 }
 
 .btn_doe:hover {
-  background: var(--color-red-secundary);
+  opacity: 98%;
 }
 
 /* Mobile */

@@ -10,8 +10,8 @@ export function About() {
     <>
       <div className="titulo">
         <div className="tituloTexto">
-          <p>Transparência</p>
-          <h1>Conheça mais</h1>
+          <p>Sobre</p>
+          <h1>Conheça-nos</h1>
           <h2>ACIPP Casa Abrigo</h2>
         </div>
         <img src={imgFundo} alt="Imagem de fundo" className="imgFundo" />

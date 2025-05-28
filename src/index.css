@@ -113,6 +113,8 @@ a:link {
     transition: var(--transition);
 }
 
+/*
+
 .btn_doe {
     width: max-content;
     display: inline-block;
@@ -124,6 +126,7 @@ a:link {
 
     transition: var(--transition);
 }
+*/
 
 .btn_doe:hover {
     background: var(--color-pink-variant);
