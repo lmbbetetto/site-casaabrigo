@@ -35,14 +35,14 @@ export function DocAssociacao() {
           firmados com o poder público.
         </h1>
         <div className={style.cards}>
-          {docAssosiacao.map((component, index) => (
+          {/* {docAssosiacao.map((component, index) => (
             <CardTransparencia
               key={index}
               title={component.title}
               link={component.link}
               icon={<MdOutlinePictureAsPdf />}
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </>
