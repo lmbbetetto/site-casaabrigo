@@ -1,7 +1,7 @@
 import style from "./style.module.css";
 import imgFundo from "../../../assets/transparencia.jpg";
 import { CardTransparencia } from "../card-transparencia";
-import { IoDocumentOutline } from "react-icons/io5";
+import { IoDocuments } from "react-icons/io5";
 import { BtnBack } from "../../../component/buttonBack/back";
 import { prestContas } from "../mock/mock-pest-contas";
 
@@ -40,7 +40,7 @@ export function DocPrestacaoContas() {
               link={card.link}
               title={card.title}
               newTab={card.newTab}
-              icon={<IoDocumentOutline />}
+              icon={<IoDocuments />}
             />
           ))}
         </div>

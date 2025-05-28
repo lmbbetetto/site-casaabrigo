@@ -2,7 +2,6 @@ import { Route, Routes, Link } from "react-router-dom";
 import Landing from "./pages/landing/Landing";
 import { Contact } from "./pages/contact/Contact";
 import { About } from "./pages/about/About";
-import Transparenciaa from "./pages/transparenciaa/Transparencia";
 import { Doe } from "./pages/doe/Doe";
 import { Header } from "./component/header/Header";
 import { Container } from "./homeStyles";
@@ -12,7 +11,7 @@ import { Footer } from "./component/footer/footer";
 import { Transparencia } from "./pages/transparencia";
 import { DocAssociacao } from "./pages/transparencia/doc-associacao/doc-associacao";
 import { DocPrestacaoContas } from "./pages/transparencia/prestacao-contas/prestacao-contas";
-import { Doc2025 } from "./pages/transparencia/prestacao-contas/2025/2025";
+import { Doc2023 } from "./pages/transparencia/prestacao-contas/2023/2023";
 import { Doc2022 } from "./pages/transparencia/prestacao-contas/2022/2022";
 
 export default function App() {
@@ -48,8 +47,8 @@ export default function App() {
           element={<DocPrestacaoContas />}
         />
         <Route
-          path="/transparencia/prestacao-contas/documentos-2025"
-          element={<Doc2025 />}
+          path="/transparencia/prestacao-contas/documentos-2023"
+          element={<Doc2023 />}
         />
         <Route
           path="/transparencia/prestacao-contas/documentos-2022"

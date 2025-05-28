@@ -1,6 +1,6 @@
 import "./about.css";
 
-import imgFundo from "../../assets/transparencia.jpg";
+import imgFundo from "../../assets/fundo-sobre.jpeg";
 
 import edna from "../../assets/edna.jpeg";
 import almira from "../../assets/almira.jpeg";
