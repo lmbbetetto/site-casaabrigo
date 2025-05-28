@@ -18,6 +18,7 @@ export function DocPrestacaoContas() {
       </div>
 
       <div className={style.container}>
+        <BtnBack link="/transparencia" />
         <h1 className={style.textoPrincipal}>
           A{" "}
           <span className={style.textoPrincipalGreen}>ACIPP Casa Abrigo </span>
@@ -32,7 +33,6 @@ export function DocPrestacaoContas() {
           </span>{" "}
           firmados com o poder público.
         </h1>
-        <BtnBack link="/transparencia" />
         <div className={style.cards}>
           {prestContas.map((card, index) => (
             <CardTransparencia

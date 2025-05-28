@@ -3,20 +3,9 @@ import style from "./style.module.css";
 import imgFundo from "../../assets/transparencia.jpg";
 import { CardTransparencia } from "./card-transparencia";
 import { IoDocuments } from "react-icons/io5";
+import { cardsTransp } from "./mock/mock-cards-transparencia";
 
 export function Transparencia() {
-  const cards = [
-    {
-      title: "Documentos Associação",
-      link: "/transparencia/documentos-associacao",
-      newTab: false,
-    },
-    {
-      title: "Prestação de Contas",
-      link: "/transparencia/prestacao-contas",
-      newTab: false,
-    },
-  ];
   return (
     <>
       <div className={style.titulo}>
@@ -43,7 +32,7 @@ export function Transparencia() {
           firmados com o poder público.
         </h1>
         <div className={style.cards}>
-          {cards.map((card, index) => (
+          {cardsTransp.map((card, index) => (
             <CardTransparencia
               key={index}
               link={card.link}
