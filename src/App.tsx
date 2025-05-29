@@ -13,6 +13,7 @@ import { DocAssociacao } from "./pages/transparencia/doc-associacao/doc-associac
 import { DocPrestacaoContas } from "./pages/transparencia/prestacao-contas/prestacao-contas";
 import { Doc2023 } from "./pages/transparencia/prestacao-contas/2023/2023";
 import { Doc2022 } from "./pages/transparencia/prestacao-contas/2022/2022";
+import { Doc2024 } from "./pages/transparencia/prestacao-contas/2024/2024";
 
 export default function App() {
   const [onSubmitContact, setOnSubmitContact] = useState(false);
@@ -47,12 +48,16 @@ export default function App() {
           element={<DocPrestacaoContas />}
         />
         <Route
+          path="/transparencia/prestacao-contas/documentos-2022"
+          element={<Doc2022 />}
+        />
+        <Route
           path="/transparencia/prestacao-contas/documentos-2023"
           element={<Doc2023 />}
         />
         <Route
-          path="/transparencia/prestacao-contas/documentos-2022"
-          element={<Doc2022 />}
+          path="/transparencia/prestacao-contas/documentos-2024"
+          element={<Doc2024 />}
         />
 
         <Route path="/ajude" element={<Doe />} />

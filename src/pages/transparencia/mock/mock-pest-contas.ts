@@ -9,11 +9,11 @@
       link: "/transparencia/prestacao-contas/documentos-2023",
       newTab: false,
     },
-    // {
-    //   title: "2024",
-    //   link: "/transparencia/prestacao-contas/documentos-2024",
-    //   newTab: false,
-    // },
+    {
+      title: "2024",
+      link: "/transparencia/prestacao-contas/documentos-2024",
+      newTab: false,
+    },
     // {
     //   title: "2025",
     //   link: "/transparencia/prestacao-contas/documentos-2025",
