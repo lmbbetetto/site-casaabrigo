@@ -13,52 +13,26 @@ import PDF12 from "../../../assets/transparenciaaa/2022/TF 12 2022 MUNICIPAL.pdf
 import PDF13 from "../../../assets/transparenciaaa/2022/TF 13 2022 ESTADUAL.pdf";
 import PDF14 from "../../../assets/transparenciaaa/2022/TF 14 2022 EMENDAS VEREADORES.pdf";
 import PDF15 from "../../../assets/transparenciaaa/2022/TF 28 2022 FMDCA.pdf";
-import PDF16 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 11 2022 FEDERAL.pdf"
-import PDF17 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 12 2022 MUNICIPAL.pdf"
-import PDF18 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 13 2022 ESTADUAL.pdf"
-import PDF19 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 14 2022 EMENDAS IMPOSITIVAS.pdf"
-import PDF20 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 28 2022 TA 20 2022.pdf"
-import PDF21 from "../../../assets/transparenciaaa/2022/novos/RP 10 2º QUADR TF 20 2022.pdf"
-import PDF22 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 11 2022 FEDERAL.pdf"
-import PDF23 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 12 2022 MUNICIPAL.pdf"
-import PDF24 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 13 2022 ESTADUAL.pdf"
-import PDF25 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 14 2022 EMENDAS IMPOSITIVAS.pdf"
-import PDF26 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 28 2022 TA 20 2022 FMDCA.pdf"
-
-
+import PDF16 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 11 2022 FEDERAL.pdf";
+import PDF17 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 12 2022 MUNICIPAL.pdf";
+import PDF18 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 13 2022 ESTADUAL.pdf";
+import PDF19 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 14 2022 EMENDAS IMPOSITIVAS.pdf";
+import PDF20 from "../../../assets/transparenciaaa/2022/novos/RELAÇÃO DESPESAS 3º QUADR TF 28 2022 TA 20 2022.pdf";
+import PDF21 from "../../../assets/transparenciaaa/2022/novos/RP 10 2º QUADR TF 20 2022.pdf";
+import PDF22 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 11 2022 FEDERAL.pdf";
+import PDF23 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 12 2022 MUNICIPAL.pdf";
+import PDF24 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 13 2022 ESTADUAL.pdf";
+import PDF25 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 14 2022 EMENDAS IMPOSITIVAS.pdf";
+import PDF26 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 28 2022 TA 20 2022 FMDCA.pdf";
 
 export const documents2022 = [
   {
-    name: "Documentos",
+    name: "TF 11/2022",
     documents: [
       {
         title:
-          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 11",
+          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 11/2022",
         link: PDF1,
-        newTab: true,
-      },
-      {
-        title:
-          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 12",
-        link: PDF2,
-        newTab: true,
-      },
-      {
-        title:
-          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 13",
-        link: PDF3,
-        newTab: true,
-      },
-      {
-        title:
-          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 14",
-        link: PDF4,
-        newTab: true,
-      },
-      {
-        title:
-          "Relatório de Prestação de Contas - 01/08/2022 a 31/08/2022 - TF 28",
-        link: PDF5,
         newTab: true,
       },
       {
@@ -67,13 +41,91 @@ export const documents2022 = [
         newTab: true,
       },
       {
+        title: "TF 11/2022 - Federal",
+        link: PDF11,
+        newTab: true,
+      },
+      {
+        title: "Relação de Despesas - 3º Quadrimestre - TF 11/2022 - Federal",
+        link: PDF16,
+        newTab: true,
+      },
+      {
+        title: "RP 10 - 3º Quadrimestre - TF 11/2022 - Federal",
+        link: PDF22,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "TF 12/2022",
+    documents: [
+      {
+        title:
+          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 12/2022",
+        link: PDF2,
+        newTab: true,
+      },
+      {
         title: "RP 10 - 01/01/2022 a 31/08/2022 - TF 12/2022 - Municipal",
         link: PDF7,
         newTab: true,
       },
       {
+        title: "TF 12/2022 - Municipal",
+        link: PDF12,
+        newTab: true,
+      },
+      {
+        title: "Relação de Despesas - 3º Quadrimestre - TF 12/2022 - Municipal",
+        link: PDF17,
+        newTab: true,
+      },
+      {
+        title: "RP 10 - 3º Quadrimestre - TF 12/2022 - Municipal",
+        link: PDF23,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "TF 13/2022",
+    documents: [
+      {
+        title:
+          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 13/2022",
+        link: PDF3,
+        newTab: true,
+      },
+      {
         title: "RP 10 - 01/01/2022 a 31/08/2022 - TF 13/2022 - Estadual",
         link: PDF8,
+        newTab: true,
+      },
+      {
+        title: "TF 13/2022 - Estadual",
+        link: PDF13,
+        newTab: true,
+      },
+      {
+        title: "Relação de Despesas - 3º Quadrimestre - TF 13/2022 - Estadual",
+        link: PDF18,
+        newTab: true,
+      },
+      {
+        title: "RP 10 - 3º Quadrimestre - TF 13/2022 - Estadual",
+        link: PDF24,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "TF 14/2022",
+    documents: [
+      {
+        title:
+          "Relatório de Prestação de Contas - 01/01/2022 a 31/08/2022 - TF 14/2022",
+        link: PDF4,
         newTab: true,
       },
       {
@@ -83,28 +135,35 @@ export const documents2022 = [
         newTab: true,
       },
       {
-        title: "RP 10 - 01/08/2022 a 31/08/2022 - TF 28/2022 - Municipal FMDCA",
-        link: PDF10,
-        newTab: true,
-      },
-      {
-        title: "TF 11/2022 - Federal",
-        link: PDF11,
-        newTab: true,
-      },
-      {
-        title: "TF 12/2022 - Municipal",
-        link: PDF12,
-        newTab: true,
-      },
-      {
-        title: "TF 13/2022 - Estadual",
-        link: PDF13,
-        newTab: true,
-      },
-      {
         title: "TF 14/2022 - Emendas Vereadores",
         link: PDF14,
+        newTab: true,
+      },
+      {
+        title:
+          "Relação de Despesas - 3º Quadrimestre - TF 14/2022 - Emendas Impositivas",
+        link: PDF19,
+        newTab: true,
+      },
+      {
+        title: "RP 10 - 3º Quadrimestre - TF 14/2022 - Emendas Impositivas",
+        link: PDF25,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "TF 28/2022",
+    documents: [
+      {
+        title:
+          "Relatório de Prestação de Contas - 01/08/2022 a 31/08/2022 - TF 28/2022",
+        link: PDF5,
+        newTab: true,
+      },
+      {
+        title: "RP 10 - 01/08/2022 a 31/08/2022 - TF 28/2022 - Municipal FMDCA",
+        link: PDF10,
         newTab: true,
       },
       {
@@ -113,53 +172,14 @@ export const documents2022 = [
         newTab: true,
       },
       {
-        title: "Relação de Despesas - 3º Quadrimestre - TF 11/2022 - Federal",
-        link: PDF16,
-        newTab: true,
-      },
-      {
-        title: "Relação de Despesas - 3º Quadrimestre - TF 12/2022 - Municipal",
-        link: PDF17,
-        newTab: true,
-      },
-      {
-        title: "Relação de Despesas - 3º Quadrimestre - TF 13/2022 - Estadual",
-        link: PDF18,
-        newTab: true,
-      },
-      {
-        title: "Relação de Despesas - 3º Quadrimestre - TF 14/2022 - Emendas Impositivas",
-        link: PDF19,
-        newTab: true,
-      },
-      {
-        title: "Relação de Despesas - 3º Quadrimestre - TF 28/2022 - TA 20/2022",
+        title:
+          "Relação de Despesas - 3º Quadrimestre - TF 28/2022 - TA 20/2022",
         link: PDF20,
         newTab: true,
       },
       {
         title: "RP 10 - 2º Quadrimestre - TF 20/2022",
         link: PDF21,
-        newTab: true,
-      },
-      {
-        title: "RP 10 - 3º Quadrimestre - TF 11/2022 - Federal",
-        link: PDF22,
-        newTab: true,
-      },
-      {
-        title: "RP 10 - 3º Quadrimestre - TF 12/2022 - Municipal",
-        link: PDF23,
-        newTab: true,
-      },
-      {
-        title: "RP 10 - 3º Quadrimestre - TF 13/2022 - Estadual",
-        link: PDF24,
-        newTab: true,
-      },
-      {
-        title: "RP 10 - 3º Quadrimestre - TF 14/2022 - Emendas Impositivas",
-        link: PDF25,
         newTab: true,
       },
       {
