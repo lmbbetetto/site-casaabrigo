@@ -12,39 +12,13 @@ import PDF11 from "../../../assets/transparenciaaa/2023/RP 10 ANUAL TF 12 2022 T
 import PDF12 from "../../../assets/transparenciaaa/2023/RP 10 ANUAL TF 13 2022 TA 3 2023 ESTADUAL.pdf";
 import PDF13 from "../../../assets/transparenciaaa/2023/RP 10 ANUAL TF 13 2023 TA 50 2023 FMDCA.pdf";
 
-
 export const documents2023 = [
   {
-    name: "Documentos",
+    name: "TF 12/2022 - TA 02/2023",
     documents: [
       {
-        title:
-          "ACIPP TA 02/23 ao TF 12/22",
+        title: "ACIPP TA 02/23 ao TF 12/22",
         link: PDF1,
-        newTab: true,
-      },
-      {
-        title:
-          "ACIPP TA 03/23 ao TF 13/22",
-        link: PDF2,
-        newTab: true,
-      },
-      {
-        title:
-          "ACIPP TA 04/23 ao TF 11/22",
-        link: PDF3,
-        newTab: true,
-      },
-      {
-        title:
-          "Relação de Despesas Anual - TF 04/2023 - Emendas Impositivas",
-        link: PDF4,
-        newTab: true,
-      },
-      {
-        title:
-          "Relação de Despesas Anual - TF 11/2022 - TA 04/2023",
-        link: PDF5,
         newTab: true,
       },
       {
@@ -54,44 +28,78 @@ export const documents2023 = [
         newTab: true,
       },
       {
-        title:
-          "Relação de Despesas Anual - TF 13/2022 - TA 03/2023 - Estadual",
+        title: "RP 10 Anual - TF 12/2022 - TA 02/2023 - Municipal",
+        link: PDF11,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "TF 13/2022 - TA 03/2023",
+    documents: [
+      {
+        title: "ACIPP T",
+        link: PDF2,
+        newTab: true,
+      },
+      {
+        title: "Relação de Despesas Anual - TF 13/2022 - TA 03/2023 - Estadual",
         link: PDF7,
         newTab: true,
       },
       {
-        title:
-          "Relação de Despesas Anual - TF 13/2023 - TA 50/2023 - FMDCA",
-        link: PDF8,
-        newTab: true,
-      },
-      {
-        title:
-          "RP 10 Anual - TF 04/2023 - Emendas Impositivas",
-        link: PDF9,
-        newTab: true,
-      },
-      {
-        title:
-          "RP 10 Anual - TF 11/2022 - TA 04/2023 - Federal",
-        link: PDF10,
-        newTab: true,
-      },
-      {
-        title:
-          "RP 10 Anual - TF 12/2022 - TA 02/2023 - Municipal",
-        link: PDF11,
-        newTab: true,
-      },
-      {
-        title:
-          "RP 10 Anual - TF 13/2022 - TA 03/2023 - Estadual",
+        title: "RP 10 Anual - TF 13/2022 - TA 03/2023 - Estadual",
         link: PDF12,
         newTab: true,
       },
+    ],
+  },
+  {
+    name: "TF 11/2022 - TA 04/2023",
+    documents: [
       {
-        title:
-          "RP 10 Anual - TF 13/2023 - TA 50/2023 - FMDCA",
+        title: "ACIPP TA 04/23 ao TF 11/22",
+        link: PDF3,
+        newTab: true,
+      },
+      {
+        title: "Relação de Despesas Anual - TF 11/2022 - TA 04/2023",
+        link: PDF5,
+        newTab: true,
+      },
+      {
+        title: "RP 10 Anual - TF 11/2022 - TA 04/2023 - Federal",
+        link: PDF10,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "TF 04/2023",
+    documents: [
+      {
+        title: "Relação de Despesas Anual - TF 04/2023 - Emendas Impositivas",
+        link: PDF4,
+        newTab: true,
+      },
+      {
+        title: "RP 10 Anual - TF 04/2023 - Emendas Impositivas",
+        link: PDF9,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "TF 13/2023 - TA 50/2023",
+    documents: [
+      {
+        title: "Relação de Despesas Anual - TF 13/2023 - TA 50/2023 - FMDCA",
+        link: PDF8,
+        newTab: true,
+      },
+
+      {
+        title: "RP 10 Anual - TF 13/2023 - TA 50/2023 - FMDCA",
         link: PDF13,
         newTab: true,
       },
