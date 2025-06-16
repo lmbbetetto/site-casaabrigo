@@ -1,18 +1,21 @@
+import PDF1 from "../../../assets/transparenciaaa/2024/BALANÇO-BALANCETE 2024.pdf";
+import PDF10 from "../../../assets/transparenciaaa/2024/novos/ATA2025.2026.pdf";
+import PDF13 from "../../../assets/transparenciaaa/2024/novos/ESTATUTO 2018-CASA ABRIGO.pdf";
+
 export const docAssosiacao = [
-    // {
-    //   title: "Balanço Patrimonial",
-    //   link: "PDF1",
-    // },
-    // {
-    //   title: "Ata Alteração e Consolidação 12º Estatuto",
-    //   link: "PDF2",
-    // },
-    // {
-    //   title: "Ata Eleição e Posse - 2025 e 2026",
-    //   link: "PDF3",
-    // },
-    // {
-    //   title: "Termo de Posse - 2025 e 2026",
-    //   link: "PDF4",
-    // },
-  ];
+  {
+    title: "Estatuto 2018",
+    link: PDF13,
+    newTab: true,
+  },
+  {
+    title: "Ata 2025 - 2026",
+    link: PDF10,
+    newTab: true,
+  },
+  {
+    title: "Balanço - Balancete 2024",
+    link: PDF1,
+    newTab: true,
+  },
+];
