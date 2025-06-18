@@ -16,7 +16,7 @@ import PDF17 from "../../../assets/transparenciaaa/2024/novos/FEDERAL RELAÇÃO 
 import PDF18 from "../../../assets/transparenciaaa/2024/novos/FEDERAL RP 10 TF 11 2022 TA 6 24.pdf";
 import PDF19 from "../../../assets/transparenciaaa/2024/novos/MUNICIPAL EMENDAS IMPOSITIVAS TF 6 2024 DESPESAS ANUAL 2024.crdownload.pdf";
 import PDF20 from "../../../assets/transparenciaaa/2024/novos/MUNICIPAL FMDCA TF 13 2023 TA 50 2023 DESPESAS ANUAL 2024.crdownload.pdf";
-import PDF21 from "../../../assets/transparenciaaa/2024/novos/MUNICIPAL FMDCA TF 9 2024 DESPESAS ANUAL 2024.crdownload.pdf";
+// import PDF21 from "../../../assets/transparenciaaa/2024/novos/MUNICIPAL FMDCA TF 9 2024 DESPESAS ANUAL 2024.crdownload.pdf";
 import PDF22 from "../../../assets/transparenciaaa/2024/novos/MUNICIPAL RP 10 TF 06 2024.pdf";
 import PDF23 from "../../../assets/transparenciaaa/2024/novos/MUNICIPAL RP 10 TF 09 2024.pdf";
 import PDF24 from "../../../assets/transparenciaaa/2024/novos/MUNICIPAL RP 10 TF 12 2022 TA 03 24.pdf";
@@ -133,11 +133,11 @@ export const documents2024 = [
         link: PDF9,
         newTab: true,
       },
-      {
-        title: "Municipal FMDCA TF 9/2024 – Despesas Anual 2024",
-        link: PDF21,
-        newTab: true,
-      },
+      // {
+      //   title: "Municipal FMDCA TF 9/2024 – Despesas Anual 2024",
+      //   link: PDF21,
+      //   newTab: true,
+      // },
       {
         title: "Municipal RP 10 – TF 09/2024",
         link: PDF23,
