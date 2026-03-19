@@ -1,4 +1,5 @@
-import PDF1 from "../../../assets/transparenciaaa/2024/BALANÇO-BALANCETE 2024.pdf";
+// import PDF1 from "../../../assets/transparenciaaa/2024/BALANÇO-BALANCETE 2024.pdf";
+import PDF1 from "../../../assets/transparenciaaa/2025/2025/balanço patrimonial 2025.pdf";
 import PDF10 from "../../../assets/transparenciaaa/2024/novos/ATA2025.2026.pdf";
 import PDF13 from "../../../assets/transparenciaaa/2024/novos/ESTATUTO 2018-CASA ABRIGO.pdf";
 
@@ -14,7 +15,7 @@ export const docAssosiacao = [
     newTab: true,
   },
   {
-    title: "Balanço - Balancete 2024",
+    title: "Balanço - Balancete 2025",
     link: PDF1,
     newTab: true,
   },
