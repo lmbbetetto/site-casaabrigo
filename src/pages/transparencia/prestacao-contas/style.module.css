@@ -70,7 +70,7 @@
 .titulo {
   display: grid;
   grid-template-columns: 36.11% 63.89%;
-  align-items: center;
+  /* align-items: center; */
   height: 29rem;
 }
 
@@ -80,7 +80,7 @@
   justify-content: center;
   padding-left: 3rem;
   background: white;
-  height: 100%;
+  height: 80%;
   padding-left: 9rem;
 }
 
@@ -95,7 +95,7 @@
 
 .imgFundo {
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit: cover;
 }
 
