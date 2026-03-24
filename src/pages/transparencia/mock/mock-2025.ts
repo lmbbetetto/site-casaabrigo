@@ -123,6 +123,11 @@ export const documents2025 = [
         newTab: true,
       },
       {
+        title: "Plano de Trabalho – Plano 34/2025 (Proposta 421)",
+        link: PDF14,
+        newTab: true,
+      },
+      {
         title: "Publicação DOEM – TF 13/2025",
         link: PDF17,
         newTab: true,
@@ -157,11 +162,6 @@ export const documents2025 = [
   {
     name: "Plano de Trabalho 34/2025",
     documents: [
-      {
-        title: "Plano de Trabalho – Plano 34/2025 (Proposta 421)",
-        link: PDF14,
-        newTab: true,
-      },
       {
         title: "Publicação DOEM – Autorização/Justificativa (Plano 34/2025)",
         link: PDF15,
