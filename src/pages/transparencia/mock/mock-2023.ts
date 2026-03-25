@@ -11,6 +11,7 @@ import PDF10 from "../../../assets/transparenciaaa/2023/RP 10 ANUAL TF 11 2022 T
 import PDF11 from "../../../assets/transparenciaaa/2023/RP 10 ANUAL TF 12 2022 TA 2 2023 MUNICIPAL.pdf";
 import PDF12 from "../../../assets/transparenciaaa/2023/RP 10 ANUAL TF 13 2022 TA 3 2023 ESTADUAL.pdf";
 import PDF13 from "../../../assets/transparenciaaa/2023/RP 10 ANUAL TF 13 2023 TA 50 2023 FMDCA.pdf";
+import PDF14 from "../../../assets/transparenciaaa/2023/PLANO DE TRABALHO TF 13 2023 R$ 23.643,19.pdf";
 
 export const documents2023 = [
   {
@@ -97,10 +98,14 @@ export const documents2023 = [
         link: PDF8,
         newTab: true,
       },
-
       {
         title: "RP 10 Anual - TF 13/2023 - TA 50/2023 - FMDCA",
         link: PDF13,
+        newTab: true,
+      },
+      {
+        title: "TF 13/2023 - Plano de trabalho",
+        link: PDF14,
         newTab: true,
       },
     ],

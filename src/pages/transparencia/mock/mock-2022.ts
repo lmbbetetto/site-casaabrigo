@@ -25,6 +25,12 @@ import PDF24 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF
 import PDF25 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 14 2022 EMENDAS IMPOSITIVAS.pdf";
 import PDF26 from "../../../assets/transparenciaaa/2022/novos/RP 10 3º QUADR TF 28 2022 TA 20 2022 FMDCA.pdf";
 
+import PDF27 from "../../../assets/transparenciaaa/2022/novos/20-2022/PLANO DE TRABALHO TF 20 2022.pdf";
+import PDF28 from "../../../assets/transparenciaaa/2022/novos/20-2022/RELATORIO DE PRESTAÇÃO DE CONTAS TF 20 2022 01 04 2022 A 30 12 2022.pdf";
+import PDF29 from "../../../assets/transparenciaaa/2022/novos/20-2022/RP 10 01 01 2022 A 31 08 2022 TF 20 2022 MUNICIPAL.pdf";
+import PDF30 from "../../../assets/transparenciaaa/2022/novos/20-2022/TF 20 2022 ENERGIA FOTOVOLTAÍCA.pdf";
+
+
 export const documents2022 = [
   {
     name: "TF 11/2022",
@@ -185,6 +191,32 @@ export const documents2022 = [
       {
         title: "RP 10 - 3º Quadrimestre - TF 28/2022 - TA 20/2022 - FMDCA",
         link: PDF26,
+        newTab: true,
+      },
+    ],
+  },
+    {
+    name: "TF 20/2022",
+    documents: [
+      {
+        title:
+          "TF 20/2022 - Energia Fotovoltáica",
+        link: PDF30,
+        newTab: true,
+      },
+      {
+        title: "TF 20/2022 - Plano de trabalho",
+        link: PDF27,
+        newTab: true,
+      },
+      {
+        title: "TF 20/2022 - Relatório de prestação de contas",
+        link: PDF28,
+        newTab: true,
+      },
+      {
+        title: "RP 10 - 01/01/2022 A 31/08/2022 - TF 20/2022 - Municipal",
+        link: PDF29,
         newTab: true,
       },
     ],
