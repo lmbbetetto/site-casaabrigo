@@ -1,12 +1,12 @@
 import PDF1 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 12-2025/Plano_0043502_2025.02.10_TA_00122025_TF_00132022_PP_335_ACIPP_E_R__55.345_81_PT.pdf";
-import PDF2 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 12-2025/Publicacao_0043729_2025.02.11_TA_00122025_publicacao.pdf"
-import PDF3 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 12-2025/Termo_0043499_novo.pdf"
+import PDF2 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 12-2025/Publicacao_0043729_2025.02.11_TA_00122025_publicacao.pdf";
+import PDF3 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 12-2025/Termo_0043499_novo.pdf";
 import PDF4 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 32-2025/PlanoPP0955002255.pdf";
 import PDF23 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA_37_25_AO_TF_13_22_ACIPP.pdf";
 
-import PDF5 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 62-2024/Plano_0035773_2024.11.26_Plano_de_Trabalho_R__2.700_00.pdf"
+import PDF5 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 62-2024/Plano_0035773_2024.11.26_Plano_de_Trabalho_R__2.700_00.pdf";
 import PDF6 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 62-2024/Publicacao_0035766_2024.12.19_TA_00622024_publicacao_DOEM.pdf";
-import PDF7 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 62-2024/Termo_0035769.pdf"
+import PDF7 from "../../../assets/transparenciaaa/2025/2025/Estadual/TA 62-2024/Termo_0035769.pdf";
 
 import PDF8 from "../../../assets/transparenciaaa/2025/2025/Federal/TA 11-2025/Plano_0043482_2025.02.10_TA_00112025_TF_00112022_PP_336_ACIPP_F_R__30.000_00_PT.pdf";
 import PDF9 from "../../../assets/transparenciaaa/2025/2025/Federal/TA 11-2025/Publicacao_0043724_2025.02.11_TA_00112025_publicacao.pdf";
@@ -28,6 +28,8 @@ import PDF20 from "../../../assets/transparenciaaa/2025/2025/emenda vereadores/T
 import PDF21 from "../../../assets/transparenciaaa/2025/2025/emenda vereadores/TF 02-2025/Publicacao_0071397_2025.06.05_TF_00022025_PP_371_ACIPP_R__65.500_00_extrato_DOEM.pdf";
 import PDF22 from "../../../assets/transparenciaaa/2025/2025/emenda vereadores/TF 02-2025/Termo_0070772_2025.06.04_TF_00022025_PP_371_ACIPP_R__65.500_00_assinado_novo.pdf";
 
+import PDF24 from "../../../assets/transparenciaaa/2025/2025/TERMO_DE_FOMENTO_CARRO.pdf";
+
 export const documents2025 = [
   {
     name: "Estadual - TF 13/2022 - TA 12/2025 - TA 32/2025 - TA 37/2025 - TA 62/2024",
@@ -36,7 +38,7 @@ export const documents2025 = [
         title: "Plano de Trabalho – TA 12/2025",
         link: PDF3,
         newTab: true,
-      },      
+      },
       {
         title: "Publicação DOEM – TA 12/2025",
         link: PDF2,
@@ -170,6 +172,16 @@ export const documents2025 = [
       {
         title: "Autorização/Justificativa – Termo de Fomento (Plano 34/2025)",
         link: PDF16,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "SEDS-PRC-2025-00911-DM",
+    documents: [
+      {
+        title: "TF Carro",
+        link: PDF24,
         newTab: true,
       },
     ],
