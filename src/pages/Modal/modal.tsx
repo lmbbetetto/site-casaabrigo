@@ -1,4 +1,4 @@
-import ReactModal from "react-modal";
+import Modal from "react-modal";
 import "./modal.css";
 
 type SubmitModalType = {
@@ -9,7 +9,7 @@ type SubmitModalType = {
 function SubmitModal({ isOpen, onRequestClose }: SubmitModalType) {
   return (
     <div className="container-modal">
-      <ReactModal
+      <Modal
         isOpen={isOpen}
         onRequestClose={onRequestClose}
         overlayClassName="modal-overlay"
@@ -19,7 +19,7 @@ function SubmitModal({ isOpen, onRequestClose }: SubmitModalType) {
         <button onClick={onRequestClose} className="btn_modal">
           Fechar
         </button>
-      </ReactModal>
+      </Modal>
     </div>
   );
 }
