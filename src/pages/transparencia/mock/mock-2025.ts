@@ -42,6 +42,8 @@ import PDF32 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO
 import PDF33 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO TF 13 2022 - TA 12 2025 ESTADUAL.pdf";
 import PDF34 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO TF 13 2025 FMDCA.pdf";
 
+import PDF35 from "../../../assets/transparenciaaa/2025/RELATORIO  ANUAL DE ATIVIDADES EXCUTADAS EM 2025.pdf";
+
 export const documents2025 = [
   {
     name: "Estadual - TF 13/2022 - TA 12/2025 - TA 32/2025 - TA 37/2025 - TA 62/2024",
@@ -244,6 +246,16 @@ export const documents2025 = [
       {
         title: "TF Carro",
         link: PDF24,
+        newTab: true,
+      },
+    ],
+  },
+  {
+    name: "Relatório Anual de Atividades",
+    documents: [
+      {
+        title: "Relatório Anual de Atividades",
+        link: PDF35,
         newTab: true,
       },
     ],
