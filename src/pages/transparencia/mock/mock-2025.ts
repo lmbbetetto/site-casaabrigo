@@ -30,6 +30,18 @@ import PDF22 from "../../../assets/transparenciaaa/2025/2025/emenda vereadores/T
 
 import PDF24 from "../../../assets/transparenciaaa/2025/2025/TERMO_DE_FOMENTO_CARRO.pdf";
 
+import PDF25 from "../../../assets/transparenciaaa/2025/01/RP 10 ANO 2025 ESTADUAL TF 13 2022.pdf";
+import PDF26 from "../../../assets/transparenciaaa/2025/01/RP 10 ANO 2025 FEDERAL TF 11 2022.pdf";
+import PDF27 from "../../../assets/transparenciaaa/2025/01/RP 10 ANO 2025 MUN EMENDAS TF 02 2025.pdf";
+import PDF28 from "../../../assets/transparenciaaa/2025/01/RP 10 ANO 2025 MUNICIPAL FMDCA TF 13 2025.pdf";
+import PDF29 from "../../../assets/transparenciaaa/2025/01/RP 10 ANO 2025 MUNICIPAL TF 12 2022.pdf";
+
+import PDF30 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO TF 002 2025 - EMENDAS IMPOSITIVAS.pdf";
+import PDF31 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO TF 11 2022 -TA 11 2025 FEDERAL.pdf";
+import PDF32 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO TF 12 2022 TA 13 2025 MUNICIPAL.pdf";
+import PDF33 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO TF 13 2022 - TA 12 2025 ESTADUAL.pdf";
+import PDF34 from "../../../assets/transparenciaaa/2025/02/DECLARAÇÃO CONSELHO TF 13 2025 FMDCA.pdf";
+
 export const documents2025 = [
   {
     name: "Estadual - TF 13/2022 - TA 12/2025 - TA 32/2025 - TA 37/2025 - TA 62/2024",
@@ -74,6 +86,16 @@ export const documents2025 = [
         link: PDF7,
         newTab: true,
       },
+      {
+        title: "TF 13/2022 – RP 10 Estadual",
+        link: PDF25,
+        newTab: true,
+      },
+      {
+        title: "TF 13/2022 - TA 12/2025 – Declaração Conselho - Estadual",
+        link: PDF33,
+        newTab: true,
+      },
     ],
   },
   {
@@ -94,6 +116,16 @@ export const documents2025 = [
         link: PDF10,
         newTab: true,
       },
+      {
+        title: "TF 11/2022 – RP 10 Federal",
+        link: PDF26,
+        newTab: true,
+      },
+      {
+        title: "TF 11/2022 - TA 11/2025 – Declaração Conselho - Federal",
+        link: PDF31,
+        newTab: true,
+      },
     ],
   },
   {
@@ -112,6 +144,16 @@ export const documents2025 = [
       {
         title: "TA 13/2025 – Termo Aditivo ao TF 12/2022",
         link: PDF13,
+        newTab: true,
+      },
+      {
+        title: "TF 12/2022 – RP 10 Municipal",
+        link: PDF29,
+        newTab: true,
+      },
+      {
+        title: "TF 12/2022 - TA 13/2025 – Declaração Conselho - Municipal",
+        link: PDF32,
         newTab: true,
       },
     ],
@@ -139,6 +181,16 @@ export const documents2025 = [
         link: PDF18,
         newTab: true,
       },
+      {
+        title: "TF 13/2025 – RP 10 Municipal FMDCA",
+        link: PDF28,
+        newTab: true,
+      },
+      {
+        title: "TF 13/2025 – Declaração Conselho - FMDCA",
+        link: PDF34,
+        newTab: true,
+      },
     ],
   },
   {
@@ -159,23 +211,33 @@ export const documents2025 = [
         link: PDF21,
         newTab: true,
       },
-    ],
-  },
-  {
-    name: "Plano de Trabalho 34/2025",
-    documents: [
       {
-        title: "Publicação DOEM – Autorização/Justificativa (Plano 34/2025)",
-        link: PDF15,
+        title: "TF 02/2025 – RP 10 Municipal Emendas Impositivas",
+        link: PDF27,
         newTab: true,
       },
       {
-        title: "Autorização/Justificativa – Termo de Fomento (Plano 34/2025)",
-        link: PDF16,
+        title: "TF 02/2025 – Declaração Conselho - Emendas Impositivas",
+        link: PDF30,
         newTab: true,
       },
     ],
   },
+  // {
+  //   name: "Plano de Trabalho 34/2025",
+  //   documents: [
+  //     {
+  //       title: "Publicação DOEM – Autorização/Justificativa (Plano 34/2025)",
+  //       link: PDF15,
+  //       newTab: true,
+  //     },
+  //     {
+  //       title: "Autorização/Justificativa – Termo de Fomento (Plano 34/2025)",
+  //       link: PDF16,
+  //       newTab: true,
+  //     },
+  //   ],
+  // },
   {
     name: "SEDS-PRC-2025-00911-DM",
     documents: [
