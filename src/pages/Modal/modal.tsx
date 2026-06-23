@@ -1,10 +1,12 @@
-import Modal from "react-modal";
+import ReactModal from "react-modal";
 import "./modal.css";
 
 type SubmitModalType = {
   isOpen: boolean;
   onRequestClose: () => void;
 };
+
+const Modal = ReactModal as any;
 
 function SubmitModal({ isOpen, onRequestClose }: SubmitModalType) {
   return (
